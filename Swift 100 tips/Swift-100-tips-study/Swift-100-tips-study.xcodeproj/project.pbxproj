@@ -7,6 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA1503D82159DD0100922F30 /* LockController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1503D72159DD0100922F30 /* LockController.swift */; };
+		CA1503DB2159DFFA00922F30 /* UnmanagedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1503DA2159DFFA00922F30 /* UnmanagedController.swift */; };
+		CA1503DE2159E4D000922F30 /* XCRunController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1503DD2159E4D000922F30 /* XCRunController.swift */; };
+		CA1503E12159E67A00922F30 /* RandomNumberController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1503E02159E67A00922F30 /* RandomNumberController.swift */; };
+		CA1503E42159E86800922F30 /* DebugPrintController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1503E32159E86800922F30 /* DebugPrintController.swift */; };
+		CA1503E72159F96C00922F30 /* ExceptionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1503E62159F96C00922F30 /* ExceptionController.swift */; };
+		CA1503EA2159FE4000922F30 /* AssertionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1503E92159FE4000922F30 /* AssertionController.swift */; };
+		CA1503ED215A050C00922F30 /* FatalErrorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1503EC215A050C00922F30 /* FatalErrorController.swift */; };
+		CA1503F0215A078100922F30 /* FrameworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1503EF215A078100922F30 /* FrameworkController.swift */; };
+		CA1503F3215A0A6D00922F30 /* SourceOrganizeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1503F2215A0A6D00922F30 /* SourceOrganizeController.swift */; };
+		CA1503F7215A0D1F00922F30 /* PlaygroundDelayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1503F6215A0D1F00922F30 /* PlaygroundDelayController.swift */; };
+		CA1503FA215A0F0B00922F30 /* PlaygroundController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1503F9215A0F0B00922F30 /* PlaygroundController.swift */; };
+		CA1503FD215A143600922F30 /* MathController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1503FC215A143600922F30 /* MathController.swift */; };
+		CA150400215A17BE00922F30 /* CodableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1503FF215A17BE00922F30 /* CodableController.swift */; };
+		CA150403215A226500922F30 /* NSNullController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA150402215A226500922F30 /* NSNullController.swift */; };
+		CA150406215A253D00922F30 /* DocumentAnnotionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA150405215A253D00922F30 /* DocumentAnnotionController.swift */; };
+		CA150409215A2F4600922F30 /* PerformanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA150408215A2F4600922F30 /* PerformanceController.swift */; };
+		CA15040C215A311F00922F30 /* LogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA15040B215A311F00922F30 /* LogController.swift */; };
+		CA15040F215A336A00922F30 /* OverflowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA15040E215A336A00922F30 /* OverflowController.swift */; };
+		CA150412215A34F800922F30 /* DefineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA150411215A34F800922F30 /* DefineController.swift */; };
+		CA150415215A367C00922F30 /* PropertyCallControlController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA150414215A367C00922F30 /* PropertyCallControlController.swift */; };
+		CA150418215A387A00922F30 /* SwiftTestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA150417215A387A00922F30 /* SwiftTestController.swift */; };
+		CA15041B215A398600922F30 /* CoreDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA15041A215A398600922F30 /* CoreDataController.swift */; };
+		CA2EB60E215B14020036C8F1 /* ClourerAmbigutyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2EB60D215B14020036C8F1 /* ClourerAmbigutyController.swift */; };
+		CA2EB611215B19690036C8F1 /* GenericityExtensionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2EB610215B19690036C8F1 /* GenericityExtensionController.swift */; };
+		CA2EB614215B1F810036C8F1 /* ListEnumController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2EB613215B1F810036C8F1 /* ListEnumController.swift */; };
+		CA2EB617215B24350036C8F1 /* TailRecursionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2EB616215B24350036C8F1 /* TailRecursionController.swift */; };
+		CA34D4CF2151EAFA00501F56 /* DynamicObjcController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA34D4CE2151EAFA00501F56 /* DynamicObjcController.swift */; };
+		CA34D4D22151EF8A00501F56 /* AboutProtocolController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA34D4D12151EF8A00501F56 /* AboutProtocolController.swift */; };
+		CA34F2F72151FC3100436583 /* AutoreleasepoolController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA34F2F62151FC3100436583 /* AutoreleasepoolController.swift */; };
+		CA34F2FA2151FE7A00436583 /* ValueRefrenceTypeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA34F2F92151FE7A00436583 /* ValueRefrenceTypeController.swift */; };
+		CA34F2FE2152005800436583 /* StringController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA34F2FD2152005800436583 /* StringController.swift */; };
+		CA34F301215212C800436583 /* UnsafePointerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA34F300215212C800436583 /* UnsafePointerController.swift */; };
+		CA34F304215215E900436583 /* CallGCDController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA34F303215215E900436583 /* CallGCDController.swift */; };
+		CA34F30721521B7500436583 /* GetObjectTypeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA34F30621521B7500436583 /* GetObjectTypeController.swift */; };
+		CA34F30A21521D1600436583 /* IntrospactionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA34F30921521D1600436583 /* IntrospactionController.swift */; };
+		CA34F30D21521E8000436583 /* KVOKeyPathController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA34F30C21521E8000436583 /* KVOKeyPathController.swift */; };
+		CA34F3102152265900436583 /* ScopeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA34F30F2152265900436583 /* ScopeController.swift */; };
+		CA34F313215229F800436583 /* ConfirmEqualeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA34F312215229F800436583 /* ConfirmEqualeController.swift */; };
+		CA34F3162152300C00436583 /* TestHashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA34F3152152300C00436583 /* TestHashController.swift */; };
+		CA34F319215337EC00436583 /* ClassClusterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA34F318215337EC00436583 /* ClassClusterController.swift */; };
+		CA34F31C21533A3D00436583 /* CallCFramewrokController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA34F31B21533A3D00436583 /* CallCFramewrokController.swift */; };
+		CA34F31F21533C7400436583 /* PretyPrintController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA34F31E21533C7400436583 /* PretyPrintController.swift */; };
+		CA34F32221533D4900436583 /* OptionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA34F32121533D4900436583 /* OptionsController.swift */; };
+		CA34F32521533FE000436583 /* ArrayEnumerateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA34F32421533FE000436583 /* ArrayEnumerateController.swift */; };
+		CA34F3282153426D00436583 /* Encode@Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA34F3272153426D00436583 /* Encode@Controller.swift */; };
+		CA34F32B2153470800436583 /* CallCAsmnameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA34F32A2153470800436583 /* CallCAsmnameController.swift */; };
+		CAB748372151F2C000E8E07C /* RatainCountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB748362151F2C000E8E07C /* RatainCountController.swift */; };
+		CAB7483A2151F74200E8E07C /* ClosureCyleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB748392151F74200E8E07C /* ClosureCyleController.swift */; };
 		CAC6ABB9214911BC0070274D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC6ABB8214911BC0070274D /* AppDelegate.swift */; };
 		CAC6ABBB214911BC0070274D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC6ABBA214911BC0070274D /* ViewController.swift */; };
 		CAC6ABBE214911BC0070274D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAC6ABBC214911BC0070274D /* Main.storyboard */; };
@@ -58,9 +107,60 @@
 		CAC6AC4D214BB0680070274D /* ConditionalCompilationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC6AC4C214BB0680070274D /* ConditionalCompilationController.swift */; };
 		CAC6AC50214BB40E0070274D /* CompilerSignController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC6AC4F214BB40E0070274D /* CompilerSignController.swift */; };
 		CAC6AC53214BB5040070274D /* UIApplicationMainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC6AC52214BB5040070274D /* UIApplicationMainController.swift */; };
+		CAEF7ACB2159CE1A00420632 /* DelegateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEF7ACA2159CE1A00420632 /* DelegateController.swift */; };
+		CAEF7ACE2159D3E900420632 /* AssociatedObjectController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEF7ACD2159D3E900420632 /* AssociatedObjectController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA1503D72159DD0100922F30 /* LockController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockController.swift; sourceTree = "<group>"; };
+		CA1503DA2159DFFA00922F30 /* UnmanagedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnmanagedController.swift; sourceTree = "<group>"; };
+		CA1503DD2159E4D000922F30 /* XCRunController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCRunController.swift; sourceTree = "<group>"; };
+		CA1503E02159E67A00922F30 /* RandomNumberController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomNumberController.swift; sourceTree = "<group>"; };
+		CA1503E32159E86800922F30 /* DebugPrintController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugPrintController.swift; sourceTree = "<group>"; };
+		CA1503E62159F96C00922F30 /* ExceptionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExceptionController.swift; sourceTree = "<group>"; };
+		CA1503E92159FE4000922F30 /* AssertionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssertionController.swift; sourceTree = "<group>"; };
+		CA1503EC215A050C00922F30 /* FatalErrorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FatalErrorController.swift; sourceTree = "<group>"; };
+		CA1503EF215A078100922F30 /* FrameworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkController.swift; sourceTree = "<group>"; };
+		CA1503F2215A0A6D00922F30 /* SourceOrganizeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceOrganizeController.swift; sourceTree = "<group>"; };
+		CA1503F6215A0D1F00922F30 /* PlaygroundDelayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundDelayController.swift; sourceTree = "<group>"; };
+		CA1503F9215A0F0B00922F30 /* PlaygroundController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundController.swift; sourceTree = "<group>"; };
+		CA1503FC215A143600922F30 /* MathController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathController.swift; sourceTree = "<group>"; };
+		CA1503FF215A17BE00922F30 /* CodableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableController.swift; sourceTree = "<group>"; };
+		CA150402215A226500922F30 /* NSNullController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSNullController.swift; sourceTree = "<group>"; };
+		CA150405215A253D00922F30 /* DocumentAnnotionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentAnnotionController.swift; sourceTree = "<group>"; };
+		CA150408215A2F4600922F30 /* PerformanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceController.swift; sourceTree = "<group>"; };
+		CA15040B215A311F00922F30 /* LogController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogController.swift; sourceTree = "<group>"; };
+		CA15040E215A336A00922F30 /* OverflowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverflowController.swift; sourceTree = "<group>"; };
+		CA150411215A34F800922F30 /* DefineController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefineController.swift; sourceTree = "<group>"; };
+		CA150414215A367C00922F30 /* PropertyCallControlController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyCallControlController.swift; sourceTree = "<group>"; };
+		CA150417215A387A00922F30 /* SwiftTestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTestController.swift; sourceTree = "<group>"; };
+		CA15041A215A398600922F30 /* CoreDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataController.swift; sourceTree = "<group>"; };
+		CA2EB60D215B14020036C8F1 /* ClourerAmbigutyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClourerAmbigutyController.swift; sourceTree = "<group>"; };
+		CA2EB610215B19690036C8F1 /* GenericityExtensionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericityExtensionController.swift; sourceTree = "<group>"; };
+		CA2EB613215B1F810036C8F1 /* ListEnumController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListEnumController.swift; sourceTree = "<group>"; };
+		CA2EB616215B24350036C8F1 /* TailRecursionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TailRecursionController.swift; sourceTree = "<group>"; };
+		CA34D4CE2151EAFA00501F56 /* DynamicObjcController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicObjcController.swift; sourceTree = "<group>"; };
+		CA34D4D12151EF8A00501F56 /* AboutProtocolController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutProtocolController.swift; sourceTree = "<group>"; };
+		CA34F2F62151FC3100436583 /* AutoreleasepoolController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoreleasepoolController.swift; sourceTree = "<group>"; };
+		CA34F2F92151FE7A00436583 /* ValueRefrenceTypeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueRefrenceTypeController.swift; sourceTree = "<group>"; };
+		CA34F2FD2152005800436583 /* StringController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringController.swift; sourceTree = "<group>"; };
+		CA34F300215212C800436583 /* UnsafePointerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsafePointerController.swift; sourceTree = "<group>"; };
+		CA34F303215215E900436583 /* CallGCDController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallGCDController.swift; sourceTree = "<group>"; };
+		CA34F30621521B7500436583 /* GetObjectTypeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetObjectTypeController.swift; sourceTree = "<group>"; };
+		CA34F30921521D1600436583 /* IntrospactionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntrospactionController.swift; sourceTree = "<group>"; };
+		CA34F30C21521E8000436583 /* KVOKeyPathController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVOKeyPathController.swift; sourceTree = "<group>"; };
+		CA34F30F2152265900436583 /* ScopeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScopeController.swift; sourceTree = "<group>"; };
+		CA34F312215229F800436583 /* ConfirmEqualeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmEqualeController.swift; sourceTree = "<group>"; };
+		CA34F3152152300C00436583 /* TestHashController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHashController.swift; sourceTree = "<group>"; };
+		CA34F318215337EC00436583 /* ClassClusterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassClusterController.swift; sourceTree = "<group>"; };
+		CA34F31B21533A3D00436583 /* CallCFramewrokController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallCFramewrokController.swift; sourceTree = "<group>"; };
+		CA34F31E21533C7400436583 /* PretyPrintController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PretyPrintController.swift; sourceTree = "<group>"; };
+		CA34F32121533D4900436583 /* OptionsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsController.swift; sourceTree = "<group>"; };
+		CA34F32421533FE000436583 /* ArrayEnumerateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayEnumerateController.swift; sourceTree = "<group>"; };
+		CA34F3272153426D00436583 /* Encode@Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encode@Controller.swift"; sourceTree = "<group>"; };
+		CA34F32A2153470800436583 /* CallCAsmnameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallCAsmnameController.swift; sourceTree = "<group>"; };
+		CAB748362151F2C000E8E07C /* RatainCountController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatainCountController.swift; sourceTree = "<group>"; };
+		CAB748392151F74200E8E07C /* ClosureCyleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureCyleController.swift; sourceTree = "<group>"; };
 		CAC6ABB5214911BB0070274D /* Swift-100-tips-study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-100-tips-study.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAC6ABB8214911BC0070274D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAC6ABBA214911BC0070274D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +214,8 @@
 		CAC6AC4C214BB0680070274D /* ConditionalCompilationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalCompilationController.swift; sourceTree = "<group>"; };
 		CAC6AC4F214BB40E0070274D /* CompilerSignController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompilerSignController.swift; sourceTree = "<group>"; };
 		CAC6AC52214BB5040070274D /* UIApplicationMainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationMainController.swift; sourceTree = "<group>"; };
+		CAEF7ACA2159CE1A00420632 /* DelegateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateController.swift; sourceTree = "<group>"; };
+		CAEF7ACD2159D3E900420632 /* AssociatedObjectController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssociatedObjectController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +229,406 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA1503D62159DCDD00922F30 /* 069 - Lock */ = {
+			isa = PBXGroup;
+			children = (
+				CA1503D72159DD0100922F30 /* LockController.swift */,
+			);
+			path = "069 - Lock";
+			sourceTree = "<group>";
+		};
+		CA1503D92159DFC500922F30 /* 070 - Tool-Free Bridging 和 Unmanaged */ = {
+			isa = PBXGroup;
+			children = (
+				CA1503DA2159DFFA00922F30 /* UnmanagedController.swift */,
+			);
+			path = "070 - Tool-Free Bridging 和 Unmanaged";
+			sourceTree = "<group>";
+		};
+		CA1503DC2159E46200922F30 /* 071 - Swift 命令行工具 */ = {
+			isa = PBXGroup;
+			children = (
+				CA1503DD2159E4D000922F30 /* XCRunController.swift */,
+			);
+			path = "071 - Swift 命令行工具";
+			sourceTree = "<group>";
+		};
+		CA1503DF2159E63C00922F30 /* 072 - 随机数生成 */ = {
+			isa = PBXGroup;
+			children = (
+				CA1503E02159E67A00922F30 /* RandomNumberController.swift */,
+			);
+			path = "072 - 随机数生成";
+			sourceTree = "<group>";
+		};
+		CA1503E22159E84B00922F30 /* 073 - print 和 debugPrint */ = {
+			isa = PBXGroup;
+			children = (
+				CA1503E32159E86800922F30 /* DebugPrintController.swift */,
+			);
+			path = "073 - print 和 debugPrint";
+			sourceTree = "<group>";
+		};
+		CA1503E52159F94500922F30 /* 074 - 错误和异常处理 */ = {
+			isa = PBXGroup;
+			children = (
+				CA1503E62159F96C00922F30 /* ExceptionController.swift */,
+			);
+			path = "074 - 错误和异常处理";
+			sourceTree = "<group>";
+		};
+		CA1503E82159FE2700922F30 /* 075 - 断言 */ = {
+			isa = PBXGroup;
+			children = (
+				CA1503E92159FE4000922F30 /* AssertionController.swift */,
+			);
+			path = "075 - 断言";
+			sourceTree = "<group>";
+		};
+		CA1503EB215A04F000922F30 /* 076 - fatalError */ = {
+			isa = PBXGroup;
+			children = (
+				CA1503EC215A050C00922F30 /* FatalErrorController.swift */,
+			);
+			path = "076 - fatalError";
+			sourceTree = "<group>";
+		};
+		CA1503EE215A076000922F30 /* 077 - 代码组织和Framework */ = {
+			isa = PBXGroup;
+			children = (
+				CA1503EF215A078100922F30 /* FrameworkController.swift */,
+			);
+			path = "077 - 代码组织和Framework";
+			sourceTree = "<group>";
+		};
+		CA1503F1215A0A2C00922F30 /* 078 - 安全的资源组织方式 */ = {
+			isa = PBXGroup;
+			children = (
+				CA1503F2215A0A6D00922F30 /* SourceOrganizeController.swift */,
+			);
+			path = "078 - 安全的资源组织方式";
+			sourceTree = "<group>";
+		};
+		CA1503F4215A0CE700922F30 /* 079- playground 延时运行 */ = {
+			isa = PBXGroup;
+			children = (
+				CA1503F6215A0D1F00922F30 /* PlaygroundDelayController.swift */,
+			);
+			path = "079- playground 延时运行";
+			sourceTree = "<group>";
+		};
+		CA1503F8215A0EB800922F30 /* 080 - playground 与项目合作 */ = {
+			isa = PBXGroup;
+			children = (
+				CA1503F9215A0F0B00922F30 /* PlaygroundController.swift */,
+			);
+			path = "080 - playground 与项目合作";
+			sourceTree = "<group>";
+		};
+		CA1503FB215A141900922F30 /* 081 - 数学和数字 */ = {
+			isa = PBXGroup;
+			children = (
+				CA1503FC215A143600922F30 /* MathController.swift */,
+			);
+			path = "081 - 数学和数字";
+			sourceTree = "<group>";
+		};
+		CA1503FE215A179200922F30 /* 082 - JSON 和 Codable */ = {
+			isa = PBXGroup;
+			children = (
+				CA1503FF215A17BE00922F30 /* CodableController.swift */,
+			);
+			path = "082 - JSON 和 Codable";
+			sourceTree = "<group>";
+		};
+		CA150401215A225200922F30 /* 083 - NSNull */ = {
+			isa = PBXGroup;
+			children = (
+				CA150402215A226500922F30 /* NSNullController.swift */,
+			);
+			path = "083 - NSNull";
+			sourceTree = "<group>";
+		};
+		CA150404215A252000922F30 /* 084 - 文档注释 */ = {
+			isa = PBXGroup;
+			children = (
+				CA150405215A253D00922F30 /* DocumentAnnotionController.swift */,
+			);
+			path = "084 - 文档注释";
+			sourceTree = "<group>";
+		};
+		CA150407215A2F0C00922F30 /* 085 - 性能考虑 */ = {
+			isa = PBXGroup;
+			children = (
+				CA150408215A2F4600922F30 /* PerformanceController.swift */,
+			);
+			path = "085 - 性能考虑";
+			sourceTree = "<group>";
+		};
+		CA15040A215A310900922F30 /* 086 - Log 输出 */ = {
+			isa = PBXGroup;
+			children = (
+				CA15040B215A311F00922F30 /* LogController.swift */,
+			);
+			path = "086 - Log 输出";
+			sourceTree = "<group>";
+		};
+		CA15040D215A335700922F30 /* 087 - 溢出 */ = {
+			isa = PBXGroup;
+			children = (
+				CA15040E215A336A00922F30 /* OverflowController.swift */,
+			);
+			path = "087 - 溢出";
+			sourceTree = "<group>";
+		};
+		CA150410215A34E300922F30 /* 088 - 宏定义 define */ = {
+			isa = PBXGroup;
+			children = (
+				CA150411215A34F800922F30 /* DefineController.swift */,
+			);
+			path = "088 - 宏定义 define";
+			sourceTree = "<group>";
+		};
+		CA150413215A364800922F30 /* 089 - 属性访问控制 */ = {
+			isa = PBXGroup;
+			children = (
+				CA150414215A367C00922F30 /* PropertyCallControlController.swift */,
+			);
+			path = "089 - 属性访问控制";
+			sourceTree = "<group>";
+		};
+		CA150416215A386700922F30 /* 090 - Swift中的测试 */ = {
+			isa = PBXGroup;
+			children = (
+				CA150417215A387A00922F30 /* SwiftTestController.swift */,
+			);
+			path = "090 - Swift中的测试";
+			sourceTree = "<group>";
+		};
+		CA150419215A396B00922F30 /* 091 - Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				CA15041A215A398600922F30 /* CoreDataController.swift */,
+			);
+			path = "091 - Core Data";
+			sourceTree = "<group>";
+		};
+		CA2EB60C215B13B90036C8F1 /* 092 - 闭包歧义 */ = {
+			isa = PBXGroup;
+			children = (
+				CA2EB60D215B14020036C8F1 /* ClourerAmbigutyController.swift */,
+			);
+			path = "092 - 闭包歧义";
+			sourceTree = "<group>";
+		};
+		CA2EB60F215B193B0036C8F1 /* 093- 泛型拓展 */ = {
+			isa = PBXGroup;
+			children = (
+				CA2EB610215B19690036C8F1 /* GenericityExtensionController.swift */,
+			);
+			path = "093- 泛型拓展";
+			sourceTree = "<group>";
+		};
+		CA2EB612215B1F640036C8F1 /* 094- 列举 enum 类型 */ = {
+			isa = PBXGroup;
+			children = (
+				CA2EB613215B1F810036C8F1 /* ListEnumController.swift */,
+			);
+			path = "094- 列举 enum 类型";
+			sourceTree = "<group>";
+		};
+		CA2EB615215B23F90036C8F1 /* 095 - 尾递归 */ = {
+			isa = PBXGroup;
+			children = (
+				CA2EB616215B24350036C8F1 /* TailRecursionController.swift */,
+			);
+			path = "095 - 尾递归";
+			sourceTree = "<group>";
+		};
+		CA34D4CD2151EABD00501F56 /* 045-@objc和dynamic */ = {
+			isa = PBXGroup;
+			children = (
+				CA34D4CE2151EAFA00501F56 /* DynamicObjcController.swift */,
+			);
+			path = "045-@objc和dynamic";
+			sourceTree = "<group>";
+		};
+		CA34D4D02151EF6500501F56 /* 046-可选协议和协议扩展 */ = {
+			isa = PBXGroup;
+			children = (
+				CA34D4D12151EF8A00501F56 /* AboutProtocolController.swift */,
+			);
+			path = "046-可选协议和协议扩展";
+			sourceTree = "<group>";
+		};
+		CA34F2F52151FC0B00436583 /* 049-@autoreleasepool */ = {
+			isa = PBXGroup;
+			children = (
+				CA34F2F62151FC3100436583 /* AutoreleasepoolController.swift */,
+			);
+			path = "049-@autoreleasepool";
+			sourceTree = "<group>";
+		};
+		CA34F2F82151FE4900436583 /* 050-值类型和引用类型 */ = {
+			isa = PBXGroup;
+			children = (
+				CA34F2F92151FE7A00436583 /* ValueRefrenceTypeController.swift */,
+			);
+			path = "050-值类型和引用类型";
+			sourceTree = "<group>";
+		};
+		CA34F2FB2152003600436583 /* 051-String还是NSString */ = {
+			isa = PBXGroup;
+			children = (
+				CA34F2FD2152005800436583 /* StringController.swift */,
+			);
+			path = "051-String还是NSString";
+			sourceTree = "<group>";
+		};
+		CA34F2FF215212AA00436583 /* 052-UnsafePointer */ = {
+			isa = PBXGroup;
+			children = (
+				CA34F300215212C800436583 /* UnsafePointerController.swift */,
+			);
+			path = "052-UnsafePointer";
+			sourceTree = "<group>";
+		};
+		CA34F302215215A400436583 /* 053-GCD和延迟调用 */ = {
+			isa = PBXGroup;
+			children = (
+				CA34F303215215E900436583 /* CallGCDController.swift */,
+			);
+			path = "053-GCD和延迟调用";
+			sourceTree = "<group>";
+		};
+		CA34F30521521B5700436583 /* 054-获取对象类型 */ = {
+			isa = PBXGroup;
+			children = (
+				CA34F30621521B7500436583 /* GetObjectTypeController.swift */,
+			);
+			path = "054-获取对象类型";
+			sourceTree = "<group>";
+		};
+		CA34F30821521CC600436583 /* 055- 自省 */ = {
+			isa = PBXGroup;
+			children = (
+				CA34F30921521D1600436583 /* IntrospactionController.swift */,
+			);
+			path = "055- 自省";
+			sourceTree = "<group>";
+		};
+		CA34F30B21521E6000436583 /* 056-KeyPath和KVO */ = {
+			isa = PBXGroup;
+			children = (
+				CA34F30C21521E8000436583 /* KVOKeyPathController.swift */,
+			);
+			path = "056-KeyPath和KVO";
+			sourceTree = "<group>";
+		};
+		CA34F30E2152264100436583 /* 057- 局部Scope */ = {
+			isa = PBXGroup;
+			children = (
+				CA34F30F2152265900436583 /* ScopeController.swift */,
+			);
+			path = "057- 局部Scope";
+			sourceTree = "<group>";
+		};
+		CA34F311215229A200436583 /* 058- 判等 */ = {
+			isa = PBXGroup;
+			children = (
+				CA34F312215229F800436583 /* ConfirmEqualeController.swift */,
+			);
+			path = "058- 判等";
+			sourceTree = "<group>";
+		};
+		CA34F31421522FF300436583 /* 059-哈希 */ = {
+			isa = PBXGroup;
+			children = (
+				CA34F3152152300C00436583 /* TestHashController.swift */,
+			);
+			path = "059-哈希";
+			sourceTree = "<group>";
+		};
+		CA34F3172153379600436583 /* 060-类簇 */ = {
+			isa = PBXGroup;
+			children = (
+				CA34F318215337EC00436583 /* ClassClusterController.swift */,
+			);
+			path = "060-类簇";
+			sourceTree = "<group>";
+		};
+		CA34F31A21533A1B00436583 /* 061-调用C动态库 */ = {
+			isa = PBXGroup;
+			children = (
+				CA34F31B21533A3D00436583 /* CallCFramewrokController.swift */,
+			);
+			path = "061-调用C动态库";
+			sourceTree = "<group>";
+		};
+		CA34F31D21533C5100436583 /* 062-输出格式化 */ = {
+			isa = PBXGroup;
+			children = (
+				CA34F31E21533C7400436583 /* PretyPrintController.swift */,
+			);
+			path = "062-输出格式化";
+			sourceTree = "<group>";
+		};
+		CA34F32021533D3500436583 /* 063-Options */ = {
+			isa = PBXGroup;
+			children = (
+				CA34F32121533D4900436583 /* OptionsController.swift */,
+			);
+			path = "063-Options";
+			sourceTree = "<group>";
+		};
+		CA34F32321533FC300436583 /* 064- 数组 enumerate */ = {
+			isa = PBXGroup;
+			children = (
+				CA34F32421533FE000436583 /* ArrayEnumerateController.swift */,
+			);
+			path = "064- 数组 enumerate";
+			sourceTree = "<group>";
+		};
+		CA34F3262153424600436583 /* 065- 类型编码 @encode */ = {
+			isa = PBXGroup;
+			children = (
+				CA34F3272153426D00436583 /* Encode@Controller.swift */,
+			);
+			path = "065- 类型编码 @encode";
+			sourceTree = "<group>";
+		};
+		CA34F329215346CD00436583 /* 066- 调用C代码和@asmname */ = {
+			isa = PBXGroup;
+			children = (
+				CA34F32A2153470800436583 /* CallCAsmnameController.swift */,
+			);
+			path = "066- 调用C代码和@asmname";
+			sourceTree = "<group>";
+		};
+		CA34F32C21534BE500436583 /* 067- delegate */ = {
+			isa = PBXGroup;
+			children = (
+				CAEF7ACA2159CE1A00420632 /* DelegateController.swift */,
+			);
+			path = "067- delegate";
+			sourceTree = "<group>";
+		};
+		CAB748352151F27900E8E07C /* 047-内存管理, weak和unowned */ = {
+			isa = PBXGroup;
+			children = (
+				CAB748362151F2C000E8E07C /* RatainCountController.swift */,
+			);
+			path = "047-内存管理, weak和unowned";
+			sourceTree = "<group>";
+		};
+		CAB748382151F70E00E8E07C /* 048-闭包循环引用 */ = {
+			isa = PBXGroup;
+			children = (
+				CAB748392151F74200E8E07C /* ClosureCyleController.swift */,
+			);
+			path = "048-闭包循环引用";
+			sourceTree = "<group>";
+		};
 		CAC6ABAC214911BB0070274D = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +662,57 @@
 		CAC6ABCA214911DA0070274D /* TestClass */ = {
 			isa = PBXGroup;
 			children = (
+				CA2EB615215B23F90036C8F1 /* 095 - 尾递归 */,
+				CA2EB612215B1F640036C8F1 /* 094- 列举 enum 类型 */,
+				CA2EB60F215B193B0036C8F1 /* 093- 泛型拓展 */,
+				CA2EB60C215B13B90036C8F1 /* 092 - 闭包歧义 */,
+				CA150419215A396B00922F30 /* 091 - Core Data */,
+				CA150416215A386700922F30 /* 090 - Swift中的测试 */,
+				CA150413215A364800922F30 /* 089 - 属性访问控制 */,
+				CA150410215A34E300922F30 /* 088 - 宏定义 define */,
+				CA15040D215A335700922F30 /* 087 - 溢出 */,
+				CA15040A215A310900922F30 /* 086 - Log 输出 */,
+				CA150407215A2F0C00922F30 /* 085 - 性能考虑 */,
+				CA150404215A252000922F30 /* 084 - 文档注释 */,
+				CA150401215A225200922F30 /* 083 - NSNull */,
+				CA1503FE215A179200922F30 /* 082 - JSON 和 Codable */,
+				CA1503FB215A141900922F30 /* 081 - 数学和数字 */,
+				CA1503F8215A0EB800922F30 /* 080 - playground 与项目合作 */,
+				CA1503F4215A0CE700922F30 /* 079- playground 延时运行 */,
+				CA1503F1215A0A2C00922F30 /* 078 - 安全的资源组织方式 */,
+				CA1503EE215A076000922F30 /* 077 - 代码组织和Framework */,
+				CA1503EB215A04F000922F30 /* 076 - fatalError */,
+				CA1503E82159FE2700922F30 /* 075 - 断言 */,
+				CA1503E52159F94500922F30 /* 074 - 错误和异常处理 */,
+				CA1503E22159E84B00922F30 /* 073 - print 和 debugPrint */,
+				CA1503DF2159E63C00922F30 /* 072 - 随机数生成 */,
+				CA1503DC2159E46200922F30 /* 071 - Swift 命令行工具 */,
+				CA1503D92159DFC500922F30 /* 070 - Tool-Free Bridging 和 Unmanaged */,
+				CA1503D62159DCDD00922F30 /* 069 - Lock */,
+				CAEF7ACC2159D3C600420632 /* 068- Associated Object  */,
+				CA34F32C21534BE500436583 /* 067- delegate */,
+				CA34F329215346CD00436583 /* 066- 调用C代码和@asmname */,
+				CA34F3262153424600436583 /* 065- 类型编码 @encode */,
+				CA34F32321533FC300436583 /* 064- 数组 enumerate */,
+				CA34F32021533D3500436583 /* 063-Options */,
+				CA34F31D21533C5100436583 /* 062-输出格式化 */,
+				CA34F31A21533A1B00436583 /* 061-调用C动态库 */,
+				CA34F3172153379600436583 /* 060-类簇 */,
+				CA34F31421522FF300436583 /* 059-哈希 */,
+				CA34F311215229A200436583 /* 058- 判等 */,
+				CA34F30E2152264100436583 /* 057- 局部Scope */,
+				CA34F30B21521E6000436583 /* 056-KeyPath和KVO */,
+				CA34F30821521CC600436583 /* 055- 自省 */,
+				CA34F30521521B5700436583 /* 054-获取对象类型 */,
+				CA34F302215215A400436583 /* 053-GCD和延迟调用 */,
+				CA34F2FF215212AA00436583 /* 052-UnsafePointer */,
+				CA34F2FB2152003600436583 /* 051-String还是NSString */,
+				CA34F2F82151FE4900436583 /* 050-值类型和引用类型 */,
+				CA34F2F52151FC0B00436583 /* 049-@autoreleasepool */,
+				CAB748382151F70E00E8E07C /* 048-闭包循环引用 */,
+				CAB748352151F27900E8E07C /* 047-内存管理, weak和unowned */,
+				CA34D4D02151EF6500501F56 /* 046-可选协议和协议扩展 */,
+				CA34D4CD2151EABD00501F56 /* 045-@objc和dynamic */,
 				CAC6AC51214BB4E30070274D /* 044-@UIApplicationMain */,
 				CAC6AC4E214BB3C30070274D /* 043-编译标记 */,
 				CAC6AC4B214BB0210070274D /* 042-条件编译 */,
@@ -570,6 +1123,14 @@
 			path = "044-@UIApplicationMain";
 			sourceTree = "<group>";
 		};
+		CAEF7ACC2159D3C600420632 /* 068- Associated Object  */ = {
+			isa = PBXGroup;
+			children = (
+				CAEF7ACD2159D3E900420632 /* AssociatedObjectController.swift */,
+			);
+			path = "068- Associated Object ";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -642,53 +1203,104 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAC6AC14214A668D0070274D /* RegularController.swift in Sources */,
+				CA34F31C21533A3D00436583 /* CallCFramewrokController.swift in Sources */,
+				CA34D4D22151EF8A00501F56 /* AboutProtocolController.swift in Sources */,
+				CA15040F215A336A00922F30 /* OverflowController.swift in Sources */,
 				CAC6AC23214B5E110070274D /* DynamicTypeController.swift in Sources */,
+				CA2EB617215B24350036C8F1 /* TailRecursionController.swift in Sources */,
+				CA34F3102152265900436583 /* ScopeController.swift in Sources */,
+				CA34F2F72151FC3100436583 /* AutoreleasepoolController.swift in Sources */,
 				CAC6AC1D214B4C0D0070274D /* TypeController.swift in Sources */,
 				CAC6ABDE214A0B1D0070274D /* AutoclosureController.swift in Sources */,
 				CAC6AC4D214BB0680070274D /* ConditionalCompilationController.swift in Sources */,
+				CAB748372151F2C000E8E07C /* RatainCountController.swift in Sources */,
 				CAC6AC20214B51200070274D /* KeySelfController.swift in Sources */,
+				CAB7483A2151F74200E8E07C /* ClosureCyleController.swift in Sources */,
+				CA34D4CF2151EAFA00501F56 /* DynamicObjcController.swift in Sources */,
+				CA1503F7215A0D1F00922F30 /* PlaygroundDelayController.swift in Sources */,
+				CA34F3282153426D00436583 /* Encode@Controller.swift in Sources */,
 				CAC6ABF6214A46E00070274D /* MoudelController.swift in Sources */,
 				CAC6ABD8214A038E0070274D /* SequenceController.swift in Sources */,
 				CAC6AC08214A5E0C0070274D /* InitialReturnNilController.swift in Sources */,
 				CAC6ABBB214911BC0070274D /* ViewController.swift in Sources */,
+				CA2EB611215B19690036C8F1 /* GenericityExtensionController.swift in Sources */,
+				CA34F2FA2151FE7A00436583 /* ValueRefrenceTypeController.swift in Sources */,
 				CAC6AC38214B8C580070274D /* OptionalMapController.swift in Sources */,
+				CA150403215A226500922F30 /* NSNullController.swift in Sources */,
 				CAC6AC11214A64910070274D /* DefaultParamController.swift in Sources */,
 				CAC6AC2C214B79070070274D /* LazyController.swift in Sources */,
 				CAC6AC02214A58320070274D /* InitialOrderController.swift in Sources */,
+				CA34F31F21533C7400436583 /* PretyPrintController.swift in Sources */,
+				CA1503DE2159E4D000922F30 /* XCRunController.swift in Sources */,
+				CA34F2FE2152005800436583 /* StringController.swift in Sources */,
+				CA34F304215215E900436583 /* CallGCDController.swift in Sources */,
+				CA150400215A17BE00922F30 /* CodableController.swift in Sources */,
 				CAC6ABCF2149EFEF0070274D /* BaseViewController.swift in Sources */,
 				CAC6ABEA214A316B0070274D /* ModifierController.swift in Sources */,
+				CAEF7ACE2159D3E900420632 /* AssociatedObjectController.swift in Sources */,
 				CAC6ABD5214A01CB0070274D /* MutatingController.swift in Sources */,
 				CAC6AC35214B84EE0070274D /* MutilOptionalController.swift in Sources */,
 				CAC6ABE1214A0EE80070274D /* EscapingController.swift in Sources */,
 				CAC6AC2F214B7BD00070274D /* ReflectionController.swift in Sources */,
+				CA34F313215229F800436583 /* ConfirmEqualeController.swift in Sources */,
+				CA150418215A387A00922F30 /* SwiftTestController.swift in Sources */,
 				CAC6AC26214B60E10070274D /* PropertyObserverController.swift in Sources */,
+				CA34F3162152300C00436583 /* TestHashController.swift in Sources */,
+				CA34F30A21521D1600436583 /* IntrospactionController.swift in Sources */,
 				CAC6AC53214BB5040070274D /* UIApplicationMainController.swift in Sources */,
+				CA15040C215A311F00922F30 /* LogController.swift in Sources */,
+				CA1503E42159E86800922F30 /* DebugPrintController.swift in Sources */,
 				CAC6AC50214BB40E0070274D /* CompilerSignController.swift in Sources */,
+				CA1503F0215A078100922F30 /* FrameworkController.swift in Sources */,
 				CAC6ABF9214A493B0070274D /* TypealiasController.swift in Sources */,
+				CA1503DB2159DFFA00922F30 /* UnmanagedController.swift in Sources */,
 				CAC6AC47214BAAD80070274D /* InstanceMothodDynamicController.swift in Sources */,
 				CAC6ABF0214A3EF30070274D /* SubscriptController.swift in Sources */,
 				CAC6ABD22149F03A0070274D /* CurryingController.swift in Sources */,
 				CAC6AC4A214BAF2F0070274D /* SigletonController.swift in Sources */,
 				CAC6ABE7214A2C2B0070274D /* OperatorController.swift in Sources */,
 				CAC6ABCD214912090070274D /* Common.swift in Sources */,
+				CA150409215A2F4600922F30 /* PerformanceController.swift in Sources */,
 				CAC6ABDB214A082F0070274D /* TupleController.swift in Sources */,
+				CA34F32B2153470800436583 /* CallCAsmnameController.swift in Sources */,
 				CAC6AC0B214A600D0070274D /* Static_ClassController.swift in Sources */,
+				CA2EB60E215B14020036C8F1 /* ClourerAmbigutyController.swift in Sources */,
+				CA150406215A253D00922F30 /* DocumentAnnotionController.swift in Sources */,
+				CA150415215A367C00922F30 /* PropertyCallControlController.swift in Sources */,
+				CA34F301215212C800436583 /* UnsafePointerController.swift in Sources */,
 				CAC6ABFC214A4DDA0070274D /* AssociatedypeController.swift in Sources */,
 				CAC6AC29214B66230070274D /* FinalController.swift in Sources */,
 				CAC6AC1A214B45770070274D /* SectionController.swift in Sources */,
+				CA34F32521533FE000436583 /* ArrayEnumerateController.swift in Sources */,
 				CAC6AC3E214B9A610070274D /* WhereAndParttenController.swift in Sources */,
 				CAC6ABB9214911BC0070274D /* AppDelegate.swift in Sources */,
+				CA1503ED215A050C00922F30 /* FatalErrorController.swift in Sources */,
+				CA150412215A34F800922F30 /* DefineController.swift in Sources */,
 				CAC6AC32214B81F60070274D /* ImplicitUnpackOptionalController.swift in Sources */,
+				CAEF7ACB2159CE1A00420632 /* DelegateController.swift in Sources */,
+				CA1503F3215A0A6D00922F30 /* SourceOrganizeController.swift in Sources */,
+				CA2EB614215B1F810036C8F1 /* ListEnumController.swift in Sources */,
+				CA34F319215337EC00436583 /* ClassClusterController.swift in Sources */,
 				CAC6ABF3214A44D60070274D /* FuncNestController.swift in Sources */,
 				CAC6AC41214BA17D0070274D /* IndirectEnumController.swift in Sources */,
 				CAC6AC44214BA6360070274D /* SelectorController.swift in Sources */,
 				CAC6AC17214B3D460070274D /* DimMatchController.swift in Sources */,
+				CA1503E12159E67A00922F30 /* RandomNumberController.swift in Sources */,
+				CA1503FD215A143600922F30 /* MathController.swift in Sources */,
 				CAC6AC0E214A61D70070274D /* SwiftCollectionController.swift in Sources */,
 				CAC6AC05214A5A480070274D /* InitialCategoryController.swift in Sources */,
 				CAC6ABED214A35F60070274D /* IiteralController.swift in Sources */,
 				CAC6AC3B214B90E90070274D /* ProtocolExtensionController.swift in Sources */,
+				CA1503E72159F96C00922F30 /* ExceptionController.swift in Sources */,
 				CAC6ABFF214A56920070274D /* MutParamsController.swift in Sources */,
 				CAC6ABE4214A28470070274D /* OptionalChainingController.swift in Sources */,
+				CA1503FA215A0F0B00922F30 /* PlaygroundController.swift in Sources */,
+				CA1503EA2159FE4000922F30 /* AssertionController.swift in Sources */,
+				CA34F32221533D4900436583 /* OptionsController.swift in Sources */,
+				CA1503D82159DD0100922F30 /* LockController.swift in Sources */,
+				CA15041B215A398600922F30 /* CoreDataController.swift in Sources */,
+				CA34F30721521B7500436583 /* GetObjectTypeController.swift in Sources */,
+				CA34F30D21521E8000436583 /* KVOKeyPathController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

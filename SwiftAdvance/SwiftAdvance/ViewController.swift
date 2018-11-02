@@ -53,6 +53,9 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
 
 extension ViewController {
     fileprivate func addJumpClass() {
-        jumpClasss.append(JumpClass(clazz: ShowArrayController.self, desc: "01 - 01 数组 -(内建集合类型)"))
+        
+        
+        jumpClasss.append(JumpClass(clazz: ShowArray2ViewController.self, desc: "01 - 01 数组 -(内建集合类型)"))
+        jumpClasss.append(JumpClass(clazz: ShowArrayController.self, desc: "01 - 01 数组 和高阶函数讲解"))
     }
 }

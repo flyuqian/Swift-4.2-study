@@ -55,7 +55,10 @@ extension ViewController {
     fileprivate func addJumpClass() {
         
         
-        jumpClasss.append(JumpClass(clazz: ShowArray2ViewController.self, desc: "01 - 01 数组 -(内建集合类型)"))
+        
+        jumpClasss.append(JumpClass(clazz: AboutSequenceController.self, desc: "02 集合类型协议 - 01 序列"))
+        
+        jumpClasss.append(JumpClass(clazz: ShowArray2ViewController.self, desc: "01 - 02 数组切片/集合/字典/range"))
         jumpClasss.append(JumpClass(clazz: ShowArrayController.self, desc: "01 - 01 数组 和高阶函数讲解"))
     }
 }

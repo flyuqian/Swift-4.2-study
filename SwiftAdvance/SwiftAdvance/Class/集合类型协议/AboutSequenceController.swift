@@ -16,7 +16,9 @@ class AboutSequenceController: NormalBaseViewController {
 //        test01()
 //        test02()
 //        test03()
-        test04()
+//        test04()
+        test05()
+        
         
     }
     
@@ -151,4 +153,119 @@ class AboutSequenceController: NormalBaseViewController {
         print(arr)
     }
     
+    //
+    /// 无序列
+    // 像我们至今为止看到的迭代器一样, sequence 对于next闭包的调用时被延迟的
+    // 序列的下一个值不会被计算, 他在调用者需要的时候生成: fibsSequence2.prefix(10), 便只会生成10个元素, 然后停止, 因为c序列如果是主动计算的, 则会因为序列是无线电额, 而造成内存溢出
+    // 集合和序列的区别就是序列可以是无限的
+    
+    
+    //
+    /// 不稳定序列
+    // 网络流/IO流/事件流, 都可以使用序列进行建模, 这些序列都m无法做到多次遍历
+    // Sequencex文档, 明确序列不保证可以多次遍历
+    // 一个非集合的序列可能会在第二次遍历是产生随机的序列元素
+    
+    
+    //
+    /// 序列和迭代器之间的关系
+    // 对于像斐波那契数列这样的稳定序列来说, 它的内部状态不随for 循环而改变, 他们需要独立的遍历状态, 该状态由迭代器提供
+    // 因为语言原因, IteratorProtocol不能继承自Sequence, 但是标准库中大部分的额迭代器都满足了Sequence 协议
+    
+    
+    
+    //
+    /// 子序列
+    // SubSequence Sequence的关联类型
+    // 用于返回原序列的切片操作
+    // prefix suffix
+    // prefix(whild:)
+    // dropFirst dropLast
+    // drop(while:)
+    // split
+    //
+    // 如果没有明确指定SubSequence 的类型, 编译器会将其推断为AnySequence<Iterator.Element>类型, 这是因为Sequence以这个z类型作为返回值, 为上述方法提供了默认实现, 如果想要使用自己的子序列类型, 我们必须为这些方法提供自定义实现
+    
+    
+    
+    
+    //
+    /// 链表
+    // 实现单项链表
+    fileprivate func test05() -> Void {
+        
+        // 链表在文件下部实现, 方便写 extension
+        
+        
+        let emptyList = List<Int>.end
+        let oneElementList = List.node(1, next: emptyList)
+        let list = List<Int>.end.cons(1).cons(2).cons(3)
+        let list2: List = [3, 2, 1]
+        // 该链表有一个特性, 它是持久的, 节点不可变, 一旦被创建, 就b无法进行更改
+        // 将一个元素添加到链表中并不会复制该链表, 只会给你一个连接在既存链表的前端节点
+        // 也就是说两个链表可以共享链表尾
+        
+        var stack: List<Int> = [3, 2, 1]
+        var a = stack
+        var b = stack
+        print(a.pop())
+        print(b.pop())
+        print(a.pop())
+        print(b.pop())
+        
+        stack.push(4)
+        print(a.pop())
+        print(b.pop())
+        print(stack.pop())
+        print(stack.pop())
+        /*
+         Optional(3)
+         Optional(3)
+         Optional(2)
+         Optional(2)
+         Optional(1)
+         Optional(1)
+         Optional(4)
+         Optional(3)
+         - 链表的节点是值, 他们不会发生改变, 一个存储了3并指向确定的下一个节点的节点永远不会变成其他的值
+         - 具有值类型的特性
+         */
+    }
+    
+}
+fileprivate enum List<Element> {
+    case end
+    indirect case node(Element, next: List<Element>)
+    // indirect 关键字, 告诉编译器枚举值node 应当被看做引用
+    func cons(_ x: Element) -> List {
+        return .node(x, next: self)
+    }
+}
+// 添加 ExpressibleByArrayLiteral 支持
+extension List: ExpressibleByArrayLiteral {
+    init(arrayLiteral elements: Element...) {
+        self = elements.reversed().reduce(.end) { partialList, element in
+            partialList.cons(element)
+        }
+    }
+}
+// 定义 pop和push
+extension List {
+    mutating func push(_ x: Element) {
+        self = self.cons(x)
+    }
+    mutating func pop() -> Element? {
+        switch self {
+        case .end: return nil
+        case let .node(x, next: tail):
+            self = tail
+            return x;
+        }
+    }
+}
+// 遵守 Sequence
+extension List: IteratorProtocol, Sequence {
+    mutating func next() -> Element? {
+        return pop()
+    }
 }

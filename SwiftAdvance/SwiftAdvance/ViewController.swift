@@ -54,6 +54,10 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
 extension ViewController {
     fileprivate func addJumpClass() {
         
+        
+        jumpClasss.append(JumpClass(clazz: StructAndClassController.self, desc: "04 类和结构体 - 01 "))
+        
+        
         jumpClasss.append(JumpClass(clazz: OptionalValueController.self, desc: "03 可选值 - 01 可选值"))
         
         

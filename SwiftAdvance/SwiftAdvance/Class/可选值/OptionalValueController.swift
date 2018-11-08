@@ -16,7 +16,8 @@ class OptionalValueController: NormalBaseViewController {
 //        test2()
 //        test3()
 //        test5()
-        test8()
+//        test8()
+        test13()
 
     }
 
@@ -267,7 +268,7 @@ fileprivate extension Int {
 extension OptionalValueController {
     fileprivate func test9() {
         let characters: [Character] = ["a", "b", "c"]
-        let fistChar = characters.map { String($0) }
+        let _ = characters.map { String($0) }
     }
 }
 // 这里书中有案例 一种 reduce 函数的实现
@@ -277,4 +278,119 @@ extension OptionalValueController {
 
 // MARK: 可选值 flatMap
 
+extension OptionalValueController {
+    fileprivate func test10() {
+        let stringNumbers = ["1", "2", "3", "foo"]
+        let _ = stringNumbers.first.map { Int($0) }
+        // 上边写法, 会得到一个 Int?? 类型的值: let x: Int??
+        let _ = stringNumbers.first.flatMap { Int($0) }
+        // 使用flatMap, 会得到: let y: Int?
+        // flatMap 和 if let 非常类似
+        // 将 以前 iflet 的案例使用 flatMap 完成
+        let urlString = "https://www.objc.io/logo.png"
+        let view = URL(string: urlString)
+            .flatMap { try? Data(contentsOf: $0) }
+            .flatMap { UIImage(data: $0) }
+            .map { UIImageView(image: $0) }
+        if let view = view {
+            view.frame = self.view.bounds
+            self.view.addSubview(view)
+        }
+    }
+    
+    // 使用 flatMap 过滤 nil
+    fileprivate func test11() {
+        let numbers = ["1", "2", "3", "foo"]
+        var sum = 0
+        for case let i? in numbers.map({ Int($0) }) {
+            sum += i
+        }
+        // 使用 ??
+        let _ = numbers.map { Int($0) }.reduce(0) { $0 + ($1 ?? 0) }
+        // 使用 flatMap
+        // FIXME: 这里编译器提示 使用 compactMap, 有空看区别
+        let _ = numbers.flatMap { Int($0) }.reduce(0, +)
+    }
+}
 
+
+
+
+// MARK: 可选值判等
+extension OptionalValueController {
+    func test12() -> Void {
+        let regex = "^Hello$"
+        // 判等其开头是不是 ^
+        if !regex.isEmpty && regex[regex.startIndex] == "^" {
+            
+        }
+        // 上边的写法太麻烦
+        // 重载 == 运算符
+        // 使用
+        if regex.first == "^" {
+            
+        }
+        // 我们不需要使用 Optional("^"), 因为Swift的隐式转换, 会在需要的时候将 "^"升级为一个可选值
+    }
+}
+fileprivate func ==<T: Equatable>(lhs: T?, rhs: T?) -> Bool {
+    switch (lhs, rhs) {
+    case (nil, nil): return true
+    case let (x?, y?): return x == y
+    case (_?, nil), (nil, _?): return false
+    }
+}
+
+
+
+
+// MARK: Equatable 和 ==
+
+extension OptionalValueController {
+    // FIXME: 原文说一下案例将出错, 因为可选值并没有实现 Equatable, 但是打印为true
+    func test13() -> Void {
+        // 可选值 有 == 操作符, 但是并没有实现 Equatable
+        let a: [Int?] = [1, 2, nil]
+        let b: [Int?] = [1, 2, nil]
+        print(a == b)
+    }
+}
+
+
+
+// MARK: 强制解包的时机    (!)
+// 当你确定某个值不可能为nil, 或者你希望该值在为nil的时候挂掉, 这时使用 !
+// 情景: 在已经过滤掉 nil 的作用域内
+// 情景: ages.keys.filter { name in ages[name]! < 50 }.sorted() , 这里已经保证了name的正确性
+//
+// MARK: 改进强制解包的错误信息
+/* 将错误信息打印出来
+ infix operator !!
+ func !! <T>(wrapped: T?, failureText: @autoclosure () -> String) -> T {
+     if let x = wrapped { return x }
+        fatalError(failureText())
+     }
+ */
+
+
+// MARK: 在调试版本中使用断言
+// TODO: 需要用到的时候可以在找,
+/*
+infix operator !?
+func !?<T: ExpressibleByIntegerLiteral>
+    (wrapped: T?, failureText: @autoclosure () -> String) -> T
+{
+    assert(wrapped != nil, failureText())
+    return wrapped ?? 0
+}
+*/
+
+
+
+// 虽然隐式解包的可选值在行为上就好像是非可选值一样，不过你依然可以对它们使用可选链，nil 合并，if let，map 或者将它们与 nil 比较，所有的这些操作都是一样的
+extension OptionalValueController {
+    
+    func test14() -> Void {
+        
+    }
+}

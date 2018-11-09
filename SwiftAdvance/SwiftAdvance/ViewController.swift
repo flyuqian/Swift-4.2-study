@@ -55,7 +55,8 @@ extension ViewController {
     fileprivate func addJumpClass() {
         
         
-        jumpClasss.append(JumpClass(clazz: StructAndClassController.self, desc: "04 类和结构体 - 01 "))
+        jumpClasss.append(JumpClass(clazz: CloureAndMemryController.self, desc: "04 类和结构体 - 02 闭包的可变性和内存 "))
+        jumpClasss.append(JumpClass(clazz: StructAndClassController.self, desc: "04 类和结构体 - 01 值语义 - 结构体"))
         
         
         jumpClasss.append(JumpClass(clazz: OptionalValueController.self, desc: "03 可选值 - 01 可选值"))

@@ -54,6 +54,9 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
 extension ViewController {
     fileprivate func addJumpClass() {
         
+        jumpClasss.append(JumpClass(clazz: EncodeAndDecodeController.self, desc: "05 编码和解码 - 01 "))
+        
+        
         
         jumpClasss.append(JumpClass(clazz: CloureAndMemryController.self, desc: "04 类和结构体 - 02 闭包的可变性和内存 "))
         jumpClasss.append(JumpClass(clazz: StructAndClassController.self, desc: "04 类和结构体 - 01 值语义 - 结构体"))

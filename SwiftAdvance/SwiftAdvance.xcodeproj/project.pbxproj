@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F2234A4219906A7000A7CAE /* FunctionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2234A3219906A7000A7CAE /* FunctionController.swift */; };
 		0F74119D21883F4300D64E30 /* ShowArray2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F74119C21883F4300D64E30 /* ShowArray2ViewController.swift */; };
 		0F985A122190328E00671434 /* AboutSequenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F985A112190328E00671434 /* AboutSequenceController.swift */; };
 		0FA0C4FE2192E49B0056EC18 /* CollectionTypeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA0C4FD2192E49B0056EC18 /* CollectionTypeController.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F2234A3219906A7000A7CAE /* FunctionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionController.swift; sourceTree = "<group>"; };
 		0F74119C21883F4300D64E30 /* ShowArray2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowArray2ViewController.swift; sourceTree = "<group>"; };
 		0F985A112190328E00671434 /* AboutSequenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutSequenceController.swift; sourceTree = "<group>"; };
 		0FA0C4FD2192E49B0056EC18 /* CollectionTypeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionTypeController.swift; sourceTree = "<group>"; };
@@ -53,6 +55,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F2234A221990671000A7CAE /* 函数 */ = {
+			isa = PBXGroup;
+			children = (
+				0F2234A3219906A7000A7CAE /* FunctionController.swift */,
+			);
+			path = "函数";
+			sourceTree = "<group>";
+		};
 		0F985A102190323A00671434 /* 集合类型协议 */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +139,7 @@
 		CA2EB639215B30970036C8F1 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				0F2234A221990671000A7CAE /* 函数 */,
 				0FBA01BF2195580500EBD7ED /* 编码和解码 */,
 				0FBA01B8219432BC00EBD7ED /* 结构体和类 */,
 				0FBA01B52193E5FE00EBD7ED /* 可选值 */,
@@ -227,6 +238,7 @@
 				CA2EB638215B30660036C8F1 /* NormalBaseViewController.swift in Sources */,
 				0FA0C4FE2192E49B0056EC18 /* CollectionTypeController.swift in Sources */,
 				0FBA01BE21953DA500EBD7ED /* CloureAndMemryController.swift in Sources */,
+				0F2234A4219906A7000A7CAE /* FunctionController.swift in Sources */,
 				0FBA01C12195581A00EBD7ED /* EncodeAndDecodeController.swift in Sources */,
 				0FBA01B72193E61A00EBD7ED /* OptionalValueController.swift in Sources */,
 			);

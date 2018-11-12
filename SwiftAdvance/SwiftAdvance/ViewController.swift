@@ -54,6 +54,10 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
 extension ViewController {
     fileprivate func addJumpClass() {
         
+        
+        jumpClasss.append(JumpClass(clazz: FunctionController.self, desc: "06 函数 - 01 "))
+        
+        
         jumpClasss.append(JumpClass(clazz: EncodeAndDecodeController.self, desc: "05 编码和解码 - 01 "))
         
         

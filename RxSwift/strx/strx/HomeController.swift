@@ -90,7 +90,11 @@ extension HomeController {
                 ]),
             SectionModel(headerTitle: "RxSwfit 元素介绍", footerTitle: "", jumpClzs: [
                 JumpClassModel(clzType: ObservableController.self, title: "Observable", subTitle: "Observable 介绍, 创建可观察序列"),
+                JumpClassModel(clzType: ObservableActionController.self, title: "Observable 2", subTitle: "Observable订阅 事件监听, 订阅销毁"),
+                JumpClassModel(clzType: Observer1Controller.self, title: "观察者 Observer -1", subTitle: "AnyObserver Binder"),
+                JumpClassModel(clzType: Observer2Controller.self, title: "观察者 Observer -2", subTitle: "自定义可绑定属性"),
                 ]),
         ]
     }
 }
+

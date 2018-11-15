@@ -22,6 +22,9 @@
 		0F377AB7219958AB00FF4F47 /* WellComeRxController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F377AB6219958AB00FF4F47 /* WellComeRxController.swift */; };
 		0F377AB921995D5600FF4F47 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F377AB821995D5600FF4F47 /* BaseController.swift */; };
 		0F377ABC219968EF00FF4F47 /* ObservableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F377ABB219968EF00FF4F47 /* ObservableController.swift */; };
+		0FD88FB7219D497D00861BDF /* ObservableActionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD88FB6219D497D00861BDF /* ObservableActionController.swift */; };
+		0FD88FB9219D51AB00861BDF /* Observer1Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD88FB8219D51AB00861BDF /* Observer1Controller.swift */; };
+		0FD88FBB219D5AEF00861BDF /* Observer2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD88FBA219D5AEF00861BDF /* Observer2Controller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,6 +56,9 @@
 		0F377AB6219958AB00FF4F47 /* WellComeRxController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellComeRxController.swift; sourceTree = "<group>"; };
 		0F377AB821995D5600FF4F47 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
 		0F377ABB219968EF00FF4F47 /* ObservableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableController.swift; sourceTree = "<group>"; };
+		0FD88FB6219D497D00861BDF /* ObservableActionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableActionController.swift; sourceTree = "<group>"; };
+		0FD88FB8219D51AB00861BDF /* Observer1Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer1Controller.swift; sourceTree = "<group>"; };
+		0FD88FBA219D5AEF00861BDF /* Observer2Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer2Controller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +131,9 @@
 			isa = PBXGroup;
 			children = (
 				0F377ABB219968EF00FF4F47 /* ObservableController.swift */,
+				0FD88FB6219D497D00861BDF /* ObservableActionController.swift */,
+				0FD88FB8219D51AB00861BDF /* Observer1Controller.swift */,
+				0FD88FBA219D5AEF00861BDF /* Observer2Controller.swift */,
 			);
 			path = "Rx 元素";
 			sourceTree = "<group>";
@@ -202,10 +211,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F377A9A21994FA500FF4F47 /* ViewController.swift in Sources */,
+				0FD88FB9219D51AB00861BDF /* Observer1Controller.swift in Sources */,
 				0F377A9821994FA500FF4F47 /* AppDelegate.swift in Sources */,
 				0F377ABC219968EF00FF4F47 /* ObservableController.swift in Sources */,
 				0F377AB921995D5600FF4F47 /* BaseController.swift in Sources */,
+				0FD88FBB219D5AEF00861BDF /* Observer2Controller.swift in Sources */,
 				0F377AB42199569100FF4F47 /* HomeController.swift in Sources */,
+				0FD88FB7219D497D00861BDF /* ObservableActionController.swift in Sources */,
 				0F377AB7219958AB00FF4F47 /* WellComeRxController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -93,7 +93,15 @@ extension HomeController {
                 JumpClassModel(clzType: ObservableActionController.self, title: "Observable 2", subTitle: "Observable订阅 事件监听, 订阅销毁"),
                 JumpClassModel(clzType: Observer1Controller.self, title: "观察者 Observer -1", subTitle: "AnyObserver Binder"),
                 JumpClassModel(clzType: Observer2Controller.self, title: "观察者 Observer -2", subTitle: "自定义可绑定属性"),
+                JumpClassModel(clzType: SubjectsViewController.self, title: "Subjects", subTitle: ""),
+                JumpClassModel(clzType: TransformingObservablesController.self, title: "变换操作符", subTitle: "buffer map flatMap scan ..."),
+                JumpClassModel(clzType: FilterObservableController.self, title: "过滤操作符", subTitle: "filter take skip..."),
+                JumpClassModel(clzType: ConditionOperatorsController.self, title: "条件和布尔操作符", subTitle: "amb takeWhile skipWhile..."),
+                JumpClassModel(clzType: ComBineOpratorController.self, title: "结合操作符", subTitle: "startWith merge zip..."),
+                JumpClassModel(clzType: MathOperatorsController.self, title: "算数&聚合操作符", subTitle: "toArray reduce concat..."),
+                JumpClassModel(clzType: ConnectOperatorController.self, title: "连接操作符", subTitle: "connect publish replay muilticast..."),
                 ]),
+            
         ]
     }
 }

@@ -88,6 +88,7 @@ extension HomeController {
             SectionModel(headerTitle: "初识 RxSwfit", footerTitle: "", jumpClzs: [
                 JumpClassModel(clzType: WellComeRxController.self, title: "响应式编程与传统编程比较", subTitle: ""),
                 ]),
+            
             SectionModel(headerTitle: "RxSwfit 元素介绍", footerTitle: "", jumpClzs: [
                 JumpClassModel(clzType: ObservableController.self, title: "Observable", subTitle: "Observable 介绍, 创建可观察序列"),
                 JumpClassModel(clzType: ObservableActionController.self, title: "Observable 2", subTitle: "Observable订阅 事件监听, 订阅销毁"),
@@ -100,8 +101,13 @@ extension HomeController {
                 JumpClassModel(clzType: ComBineOpratorController.self, title: "结合操作符", subTitle: "startWith merge zip..."),
                 JumpClassModel(clzType: MathOperatorsController.self, title: "算数&聚合操作符", subTitle: "toArray reduce concat..."),
                 JumpClassModel(clzType: ConnectOperatorController.self, title: "连接操作符", subTitle: "connect publish replay muilticast..."),
+                JumpClassModel(clzType: OtherOperatorController.self, title: "其他操作符", subTitle: "delay materialize timeout..."),
                 ]),
             
+            SectionModel(headerTitle: "错误处理 & 调试", footerTitle: "", jumpClzs: [
+                JumpClassModel(clzType: ErrorHandlerController.self, title: "错误处理", subTitle: ""),
+                JumpClassModel(clzType: DebugRxController.self, title: "调试", subTitle: ""),
+                ]),
         ]
     }
 }

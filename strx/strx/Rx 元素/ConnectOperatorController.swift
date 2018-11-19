@@ -12,6 +12,8 @@ import RxSwift
 class ConnectOperatorController: BaseController {
 
     
+    // TODO: 这些 没怎么看明白
+    
     
     //MARK: 可连接的序列 Connectable Observable
     // （1）可连接的序列和一般序列不同在于：有订阅时不会立刻开始发送事件消息，只有当调用 connect() 之后才会开始发送值。

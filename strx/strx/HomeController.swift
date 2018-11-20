@@ -108,6 +108,22 @@ extension HomeController {
                 JumpClassModel(clzType: ErrorHandlerController.self, title: "错误处理", subTitle: ""),
                 JumpClassModel(clzType: DebugRxController.self, title: "调试", subTitle: ""),
                 ]),
+            
+            SectionModel(headerTitle: "特征序列", footerTitle: "", jumpClzs: [
+                JumpClassModel(clzType: TraitsSequence1Controller.self, title: "特征序列1", subTitle: "single completable maybe"),
+                JumpClassModel(clzType: TraitsSequence2Controller.self, title: "特征序列2", subTitle: "Driver"),
+                JumpClassModel(clzType: TraitsSequence3Controller.self, title: "特征序列3", subTitle: "ControlProperty ControlEvent"),
+                ]),
+            
+            SectionModel(headerTitle: "调度器", footerTitle: "", jumpClzs: [
+                JumpClassModel(clzType: SchedulersController.self, title: "调度器", subTitle: "调度器 subscribeOn observeOn"),
+                ]),
+            
+            SectionModel(headerTitle: "UI控件拓展", footerTitle: "", jumpClzs: [
+                JumpClassModel(clzType: TestUI_1_Controller.self, title: "UILabel", subTitle: "UI控件拓展1"),
+                JumpClassModel(clzType: TestUI_2_Controller.self, title: "UITextField UITextView", subTitle: "UI控件拓展2"),
+                ]),
+            
         ]
     }
 }

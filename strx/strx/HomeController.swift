@@ -132,6 +132,7 @@ extension HomeController {
                 JumpClassModel(clzType: ReloadDataController.self, title: "tableView 刷新表格数据", subTitle: ""),
                 JumpClassModel(clzType: FilterDataController.self, title: "表格数据的 搜索过滤", subTitle: ""),
                 JumpClassModel(clzType: EditTableController.self, title: "可编辑表格", subTitle: ""),
+                JumpClassModel(clzType: MoreCellStyleController.self, title: "不同类型的单元格混用", subTitle: ""),
                 ]),
             
         ]

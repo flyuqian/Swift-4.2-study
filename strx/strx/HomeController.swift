@@ -31,7 +31,7 @@ class HomeController: UITableViewController {
         super.viewDidLoad()
         initialCellModels()
         
-//        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "homecellid")
+        self.title = "练习 hangge.com 的Rx"
     }
 
     
@@ -122,6 +122,16 @@ extension HomeController {
             SectionModel(headerTitle: "UI控件拓展", footerTitle: "", jumpClzs: [
                 JumpClassModel(clzType: TestUI_1_Controller.self, title: "UILabel", subTitle: "UI控件拓展1"),
                 JumpClassModel(clzType: TestUI_2_Controller.self, title: "UITextField UITextView", subTitle: "UI控件拓展2"),
+                JumpClassModel(clzType: TestUI_3_Controller.self, title: "UIButton .... 很多控件的 rx 属性", subTitle: "UI控件拓展3, 列出关键属性, 不写案例"),
+                JumpClassModel(clzType: BothwayBindingController.self, title: "双向绑定", subTitle: ""),
+                ]),
+            
+            SectionModel(headerTitle: "UITableView 的使用", footerTitle: "", jumpClzs: [
+                JumpClassModel(clzType: TestTableViewController.self, title: "基本用法", subTitle: ""),
+                JumpClassModel(clzType: RxDataSourceViewController.self, title: "RxDataSource 的使用", subTitle: ""),
+                JumpClassModel(clzType: ReloadDataController.self, title: "tableView 刷新表格数据", subTitle: ""),
+                JumpClassModel(clzType: FilterDataController.self, title: "表格数据的 搜索过滤", subTitle: ""),
+                JumpClassModel(clzType: EditTableController.self, title: "可编辑表格", subTitle: ""),
                 ]),
             
         ]

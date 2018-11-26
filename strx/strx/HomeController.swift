@@ -75,8 +75,14 @@ class HomeController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let jc = cellModels[indexPath.section].jumpClzs[indexPath.row]
-        let vc = jc.clzType.init()
-        navigationController?.pushViewController(vc, animated: true)
+        if jc.clzType == MoreCellStyleController.self {
+            let vc = UIStoryboard(name: "TestTableView", bundle: nil).instantiateViewController(withIdentifier: "MoreCellStyleController")
+            navigationController?.pushViewController(vc, animated: true)
+        }
+        else {
+            let vc = jc.clzType.init()
+            navigationController?.pushViewController(vc, animated: true)
+        }
     }
 }
 
@@ -133,6 +139,11 @@ extension HomeController {
                 JumpClassModel(clzType: FilterDataController.self, title: "表格数据的 搜索过滤", subTitle: ""),
                 JumpClassModel(clzType: EditTableController.self, title: "可编辑表格", subTitle: ""),
                 JumpClassModel(clzType: MoreCellStyleController.self, title: "不同类型的单元格混用", subTitle: ""),
+                JumpClassModel(clzType: ChangeStyleController.self, title: "UITableView 的样式修改", subTitle: ""),
+                ]),
+            
+            SectionModel(headerTitle: "UICollectionView 的使用", footerTitle: "", jumpClzs: [
+                JumpClassModel(clzType: TestNormalCollectionController.self, title: "collectionView rx 基本用法", subTitle: ""),
                 ]),
             
         ]

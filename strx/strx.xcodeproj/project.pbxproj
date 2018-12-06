@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F039A6F21B79BA700D0799E /* TestCollection2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F039A6E21B79BA700D0799E /* TestCollection2Controller.swift */; };
+		0F039A7121B7A72400D0799E /* TestCollection3Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F039A7021B7A72400D0799E /* TestCollection3Controller.swift */; };
+		0F039A7321B8AA6700D0799E /* TestCollection4Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F039A7221B8AA6700D0799E /* TestCollection4Controller.swift */; };
+		0F039A7A21B9080D00D0799E /* TestPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F039A7921B9080D00D0799E /* TestPickerController.swift */; };
+		0F039A7D21B9123E00D0799E /* TestWeakUnownedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F039A7C21B9123E00D0799E /* TestWeakUnownedController.swift */; };
+		0F039A8021B915E200D0799E /* TestSession1Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F039A7F21B915E200D0799E /* TestSession1Controller.swift */; };
+		0F039A8221B915FB00D0799E /* TestSession2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F039A8121B915FB00D0799E /* TestSession2Controller.swift */; };
 		0F377A9821994FA500FF4F47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F377A9721994FA500FF4F47 /* AppDelegate.swift */; };
 		0F377A9A21994FA500FF4F47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F377A9921994FA500FF4F47 /* ViewController.swift */; };
 		0F377A9D21994FA500FF4F47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F377A9B21994FA500FF4F47 /* Main.storyboard */; };
@@ -82,6 +89,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0F039A6E21B79BA700D0799E /* TestCollection2Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCollection2Controller.swift; sourceTree = "<group>"; };
+		0F039A7021B7A72400D0799E /* TestCollection3Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCollection3Controller.swift; sourceTree = "<group>"; };
+		0F039A7221B8AA6700D0799E /* TestCollection4Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCollection4Controller.swift; sourceTree = "<group>"; };
+		0F039A7921B9080D00D0799E /* TestPickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPickerController.swift; sourceTree = "<group>"; };
+		0F039A7C21B9123E00D0799E /* TestWeakUnownedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWeakUnownedController.swift; sourceTree = "<group>"; };
+		0F039A7F21B915E200D0799E /* TestSession1Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSession1Controller.swift; sourceTree = "<group>"; };
+		0F039A8121B915FB00D0799E /* TestSession2Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSession2Controller.swift; sourceTree = "<group>"; };
 		0F377A9421994FA500FF4F47 /* strx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = strx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F377A9721994FA500FF4F47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F377A9921994FA500FF4F47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -152,6 +166,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F039A7821B907E500D0799E /* PickerView */ = {
+			isa = PBXGroup;
+			children = (
+				0F039A7921B9080D00D0799E /* TestPickerController.swift */,
+			);
+			path = PickerView;
+			sourceTree = "<group>";
+		};
+		0F039A7B21B9120F00D0799E /* Unowned_weak */ = {
+			isa = PBXGroup;
+			children = (
+				0F039A7C21B9123E00D0799E /* TestWeakUnownedController.swift */,
+			);
+			path = Unowned_weak;
+			sourceTree = "<group>";
+		};
+		0F039A7E21B915C200D0799E /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				0F039A7F21B915E200D0799E /* TestSession1Controller.swift */,
+				0F039A8121B915FB00D0799E /* TestSession2Controller.swift */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
 		0F377A8B21994FA500FF4F47 = {
 			isa = PBXGroup;
 			children = (
@@ -175,6 +214,9 @@
 				0F8009B021A50493009756E9 /* Common */,
 				0F377AB32199569100FF4F47 /* HomeController.swift */,
 				0F377AB821995D5600FF4F47 /* BaseController.swift */,
+				0F039A7E21B915C200D0799E /* Session */,
+				0F039A7B21B9120F00D0799E /* Unowned_weak */,
+				0F039A7821B907E500D0799E /* PickerView */,
 				0F5C829B21A687C600E23A67 /* collectionView */,
 				0F8009B621A52C11009756E9 /* tableView */,
 				0FE5354021A39E35007AC15B /* UI控件拓展 */,
@@ -245,6 +287,9 @@
 			isa = PBXGroup;
 			children = (
 				0F5C829C21A6881100E23A67 /* TestNormalCollectionController.swift */,
+				0F039A6E21B79BA700D0799E /* TestCollection2Controller.swift */,
+				0F039A7021B7A72400D0799E /* TestCollection3Controller.swift */,
+				0F039A7221B8AA6700D0799E /* TestCollection4Controller.swift */,
 			);
 			path = collectionView;
 			sourceTree = "<group>";
@@ -395,7 +440,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F039A8221B915FB00D0799E /* TestSession2Controller.swift in Sources */,
 				0F377A9A21994FA500FF4F47 /* ViewController.swift in Sources */,
+				0F039A6F21B79BA700D0799E /* TestCollection2Controller.swift in Sources */,
 				0F5C828521A6474100E23A67 /* EditTableController.swift in Sources */,
 				0FD88FC0219E9D2C00861BDF /* SubjectsViewController.swift in Sources */,
 				0FE5354621A3A483007AC15B /* TestUI_2_Controller.swift in Sources */,
@@ -406,6 +453,7 @@
 				0FD88FB9219D51AB00861BDF /* Observer1Controller.swift in Sources */,
 				0FE5353221A2ECA2007AC15B /* OtherOperatorController.swift in Sources */,
 				0F377A9821994FA500FF4F47 /* AppDelegate.swift in Sources */,
+				0F039A7D21B9123E00D0799E /* TestWeakUnownedController.swift in Sources */,
 				0FE5353E21A38D5F007AC15B /* TraitsSequence3Controller.swift in Sources */,
 				0F8009B521A5053F009756E9 /* BothwayBindingController.swift in Sources */,
 				0FE5353021A2AAC5007AC15B /* ConnectOperatorController.swift in Sources */,
@@ -417,17 +465,21 @@
 				0FE5354421A3A0DE007AC15B /* TestUI_1_Controller.swift in Sources */,
 				0FE5352821A286C9007AC15B /* FilterObservableController.swift in Sources */,
 				0F8009B321A504C4009756E9 /* Operators.swift in Sources */,
+				0F039A7A21B9080D00D0799E /* TestPickerController.swift in Sources */,
 				0F5C828121A561A500E23A67 /* ReloadDataController.swift in Sources */,
 				0F377ABC219968EF00FF4F47 /* ObservableController.swift in Sources */,
 				0F5C829D21A6881100E23A67 /* TestNormalCollectionController.swift in Sources */,
 				0F377AB921995D5600FF4F47 /* BaseController.swift in Sources */,
 				0FD88FC2219EA99D00861BDF /* TransformingObservablesController.swift in Sources */,
 				0FD88FBB219D5AEF00861BDF /* Observer2Controller.swift in Sources */,
+				0F039A7321B8AA6700D0799E /* TestCollection4Controller.swift in Sources */,
 				0F5C828321A635AB00E23A67 /* FilterDataController.swift in Sources */,
 				0F5C829A21A6831900E23A67 /* ChangeStyleController.swift in Sources */,
+				0F039A7121B7A72400D0799E /* TestCollection3Controller.swift in Sources */,
 				0F377AB42199569100FF4F47 /* HomeController.swift in Sources */,
 				0FD88FB7219D497D00861BDF /* ObservableActionController.swift in Sources */,
 				0FE5353521A2F76B007AC15B /* DebugRxController.swift in Sources */,
+				0F039A8021B915E200D0799E /* TestSession1Controller.swift in Sources */,
 				0F377AB7219958AB00FF4F47 /* WellComeRxController.swift in Sources */,
 				0FE5352E21A2A75D007AC15B /* MathOperatorsController.swift in Sources */,
 				0F8009B821A52C39009756E9 /* TestTableViewController.swift in Sources */,

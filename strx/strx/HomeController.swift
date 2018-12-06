@@ -144,8 +144,23 @@ extension HomeController {
             
             SectionModel(headerTitle: "UICollectionView 的使用", footerTitle: "", jumpClzs: [
                 JumpClassModel(clzType: TestNormalCollectionController.self, title: "collectionView rx 基本用法", subTitle: ""),
+                JumpClassModel(clzType: TestCollection2Controller.self, title: "collectionView RxDataSource 的使用", subTitle: ""),
+                JumpClassModel(clzType: TestCollection3Controller.self, title: "collectionView 刷新集合数据", subTitle: ""),
+                JumpClassModel(clzType: TestCollection4Controller.self, title: "collectionView 样式修改", subTitle: ""),
                 ]),
             
+            SectionModel(headerTitle: "UIPickerView", footerTitle: "", jumpClzs: [
+                JumpClassModel(clzType: TestPickerController.self, title: "UIPickerView 的使用", subTitle: ""),
+                ]),
+            
+            SectionModel(headerTitle: "[unowned self] 和 [weak self]", footerTitle: "", jumpClzs: [
+                JumpClassModel(clzType: TestWeakUnownedController.self, title: "Rx 中 unowned self] 与 [weak self]", subTitle: ""),
+                ]),
+            
+            SectionModel(headerTitle: "URLSession 的使用", footerTitle: "", jumpClzs: [
+                JumpClassModel(clzType: TestSession1Controller.self, title: "请求数据", subTitle: ""),
+                JumpClassModel(clzType: TestSession2Controller.self, title: "结果处理, 模型转换", subTitle: ""),
+                ]),
         ]
     }
 }

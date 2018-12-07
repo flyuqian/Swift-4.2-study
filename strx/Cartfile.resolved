@@ -1,3 +1,5 @@
+github "Alamofire/Alamofire" "4.8.0"
 github "ReactiveX/RxSwift" "4.4.0"
+github "RxSwiftCommunity/RxAlamofire" "f8b0b00ad6253dbf9c1deb0e77bc3fb1b5178ec0"
 github "RxSwiftCommunity/RxDataSources" "3.1.0"
 github "tristanhimmelman/ObjectMapper" "3.4.1"

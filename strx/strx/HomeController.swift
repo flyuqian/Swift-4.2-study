@@ -168,6 +168,12 @@ extension HomeController {
                 JumpClassModel(clzType: TestAlamo_3_Controller.self, title: "文件上传", subTitle: ""),
                 JumpClassModel(clzType: TestAlamo_4_Controller.self, title: "文件下载", subTitle: ""),
                 ]),
+            
+            SectionModel(headerTitle: "Moya", footerTitle: "", jumpClzs: [
+                JumpClassModel(clzType: TestMoya_1_Controller.self, title: "请求数据", subTitle: ""),
+                JumpClassModel(clzType: TestMoya_2_Controller.self, title: "结果处理, 模型转换", subTitle: ""),
+                ]),
+
         ]
     }
 }

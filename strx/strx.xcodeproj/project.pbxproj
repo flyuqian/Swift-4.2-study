@@ -21,6 +21,14 @@
 		0F103BE621BA046900084354 /* TestAlamo_2_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F103BE521BA046900084354 /* TestAlamo_2_Controller.swift */; };
 		0F103BE821BA047300084354 /* TestAlamo_3_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F103BE721BA047300084354 /* TestAlamo_3_Controller.swift */; };
 		0F103BEA21BA047F00084354 /* TestAlamo_4_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F103BE921BA047F00084354 /* TestAlamo_4_Controller.swift */; };
+		0F103BEC21BA097700084354 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F103BEB21BA097700084354 /* Alamofire.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		0F103BED21BA097F00084354 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F103BEB21BA097700084354 /* Alamofire.framework */; };
+		0F103BEE21BA097F00084354 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0F103BEB21BA097700084354 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0F103BF721BA10CF00084354 /* RxAlamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F103BF621BA10CF00084354 /* RxAlamofire.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		0F103BF821BA10D800084354 /* RxAlamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F103BF621BA10CF00084354 /* RxAlamofire.framework */; };
+		0F103BF921BA10D800084354 /* RxAlamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0F103BF621BA10CF00084354 /* RxAlamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0F103BFC21BA1F6C00084354 /* TestMoya_1_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F103BFB21BA1F6C00084354 /* TestMoya_1_Controller.swift */; };
+		0F103BFE21BA1F7600084354 /* TestMoya_2_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F103BFD21BA1F7600084354 /* TestMoya_2_Controller.swift */; };
 		0F377A9821994FA500FF4F47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F377A9721994FA500FF4F47 /* AppDelegate.swift */; };
 		0F377A9A21994FA500FF4F47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F377A9921994FA500FF4F47 /* ViewController.swift */; };
 		0F377A9D21994FA500FF4F47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F377A9B21994FA500FF4F47 /* Main.storyboard */; };
@@ -86,6 +94,8 @@
 			dstSubfolderSpec = 10;
 			files = (
 				0F5C827B21A5597E00E23A67 /* RxDataSources.framework in Embed Frameworks */,
+				0F103BEE21BA097F00084354 /* Alamofire.framework in Embed Frameworks */,
+				0F103BF921BA10D800084354 /* RxAlamofire.framework in Embed Frameworks */,
 				0F5C827221A5581100E23A67 /* RxCocoa.framework in Embed Frameworks */,
 				0F03A13C21B91F4B00D0799E /* ObjectMapper.framework in Embed Frameworks */,
 				0F5C827F21A55BA700E23A67 /* Differentiator.framework in Embed Frameworks */,
@@ -109,6 +119,10 @@
 		0F103BE521BA046900084354 /* TestAlamo_2_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAlamo_2_Controller.swift; sourceTree = "<group>"; };
 		0F103BE721BA047300084354 /* TestAlamo_3_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAlamo_3_Controller.swift; sourceTree = "<group>"; };
 		0F103BE921BA047F00084354 /* TestAlamo_4_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAlamo_4_Controller.swift; sourceTree = "<group>"; };
+		0F103BEB21BA097700084354 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		0F103BF621BA10CF00084354 /* RxAlamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxAlamofire.framework; path = Carthage/Build/iOS/RxAlamofire.framework; sourceTree = "<group>"; };
+		0F103BFB21BA1F6C00084354 /* TestMoya_1_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMoya_1_Controller.swift; sourceTree = "<group>"; };
+		0F103BFD21BA1F7600084354 /* TestMoya_2_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMoya_2_Controller.swift; sourceTree = "<group>"; };
 		0F377A9421994FA500FF4F47 /* strx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = strx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F377A9721994FA500FF4F47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F377A9921994FA500FF4F47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -165,12 +179,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F103BF721BA10CF00084354 /* RxAlamofire.framework in Frameworks */,
+				0F103BEC21BA097700084354 /* Alamofire.framework in Frameworks */,
 				0F03A13A21B91F4200D0799E /* ObjectMapper.framework in Frameworks */,
 				0F5C827D21A55B9F00E23A67 /* Differentiator.framework in Frameworks */,
 				0F03A13B21B91F4B00D0799E /* ObjectMapper.framework in Frameworks */,
 				0F5C827921A5597100E23A67 /* RxDataSources.framework in Frameworks */,
 				0F5C827E21A55BA700E23A67 /* Differentiator.framework in Frameworks */,
 				0F5C827121A5581100E23A67 /* RxCocoa.framework in Frameworks */,
+				0F103BED21BA097F00084354 /* Alamofire.framework in Frameworks */,
+				0F103BF821BA10D800084354 /* RxAlamofire.framework in Frameworks */,
 				0F5C826E21A5580000E23A67 /* RxSwift.framework in Frameworks */,
 				0F5C827A21A5597E00E23A67 /* RxDataSources.framework in Frameworks */,
 				0F5C827521A5581200E23A67 /* RxSwift.framework in Frameworks */,
@@ -217,6 +235,15 @@
 			path = RxAlamofire;
 			sourceTree = "<group>";
 		};
+		0F103BFA21BA1F4400084354 /* Moya */ = {
+			isa = PBXGroup;
+			children = (
+				0F103BFB21BA1F6C00084354 /* TestMoya_1_Controller.swift */,
+				0F103BFD21BA1F7600084354 /* TestMoya_2_Controller.swift */,
+			);
+			path = Moya;
+			sourceTree = "<group>";
+		};
 		0F377A8B21994FA500FF4F47 = {
 			isa = PBXGroup;
 			children = (
@@ -240,6 +267,7 @@
 				0F8009B021A50493009756E9 /* Common */,
 				0F377AB32199569100FF4F47 /* HomeController.swift */,
 				0F377AB821995D5600FF4F47 /* BaseController.swift */,
+				0F103BFA21BA1F4400084354 /* Moya */,
 				0F103BE221BA043200084354 /* RxAlamofire */,
 				0F039A7E21B915C200D0799E /* Session */,
 				0F039A7B21B9120F00D0799E /* Unowned_weak */,
@@ -265,6 +293,8 @@
 		0F377AA92199557000FF4F47 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0F103BF621BA10CF00084354 /* RxAlamofire.framework */,
+				0F103BEB21BA097700084354 /* Alamofire.framework */,
 				0F03A13921B91F4200D0799E /* ObjectMapper.framework */,
 				0F5C827C21A55B9F00E23A67 /* Differentiator.framework */,
 				0F5C827821A5597100E23A67 /* RxDataSources.framework */,
@@ -469,6 +499,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F039A8221B915FB00D0799E /* TestSession2Controller.swift in Sources */,
+				0F103BFE21BA1F7600084354 /* TestMoya_2_Controller.swift in Sources */,
 				0F377A9A21994FA500FF4F47 /* ViewController.swift in Sources */,
 				0F039A6F21B79BA700D0799E /* TestCollection2Controller.swift in Sources */,
 				0F5C828521A6474100E23A67 /* EditTableController.swift in Sources */,
@@ -483,6 +514,7 @@
 				0FE5353221A2ECA2007AC15B /* OtherOperatorController.swift in Sources */,
 				0F377A9821994FA500FF4F47 /* AppDelegate.swift in Sources */,
 				0F039A7D21B9123E00D0799E /* TestWeakUnownedController.swift in Sources */,
+				0F103BFC21BA1F6C00084354 /* TestMoya_1_Controller.swift in Sources */,
 				0FE5353E21A38D5F007AC15B /* TraitsSequence3Controller.swift in Sources */,
 				0F8009B521A5053F009756E9 /* BothwayBindingController.swift in Sources */,
 				0FE5353021A2AAC5007AC15B /* ConnectOperatorController.swift in Sources */,

@@ -14,6 +14,13 @@
 		0F039A7D21B9123E00D0799E /* TestWeakUnownedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F039A7C21B9123E00D0799E /* TestWeakUnownedController.swift */; };
 		0F039A8021B915E200D0799E /* TestSession1Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F039A7F21B915E200D0799E /* TestSession1Controller.swift */; };
 		0F039A8221B915FB00D0799E /* TestSession2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F039A8121B915FB00D0799E /* TestSession2Controller.swift */; };
+		0F03A13A21B91F4200D0799E /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F03A13921B91F4200D0799E /* ObjectMapper.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		0F03A13B21B91F4B00D0799E /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F03A13921B91F4200D0799E /* ObjectMapper.framework */; };
+		0F03A13C21B91F4B00D0799E /* ObjectMapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0F03A13921B91F4200D0799E /* ObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0F103BE421BA045E00084354 /* TestAlamo_1_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F103BE321BA045E00084354 /* TestAlamo_1_Controller.swift */; };
+		0F103BE621BA046900084354 /* TestAlamo_2_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F103BE521BA046900084354 /* TestAlamo_2_Controller.swift */; };
+		0F103BE821BA047300084354 /* TestAlamo_3_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F103BE721BA047300084354 /* TestAlamo_3_Controller.swift */; };
+		0F103BEA21BA047F00084354 /* TestAlamo_4_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F103BE921BA047F00084354 /* TestAlamo_4_Controller.swift */; };
 		0F377A9821994FA500FF4F47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F377A9721994FA500FF4F47 /* AppDelegate.swift */; };
 		0F377A9A21994FA500FF4F47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F377A9921994FA500FF4F47 /* ViewController.swift */; };
 		0F377A9D21994FA500FF4F47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F377A9B21994FA500FF4F47 /* Main.storyboard */; };
@@ -80,6 +87,7 @@
 			files = (
 				0F5C827B21A5597E00E23A67 /* RxDataSources.framework in Embed Frameworks */,
 				0F5C827221A5581100E23A67 /* RxCocoa.framework in Embed Frameworks */,
+				0F03A13C21B91F4B00D0799E /* ObjectMapper.framework in Embed Frameworks */,
 				0F5C827F21A55BA700E23A67 /* Differentiator.framework in Embed Frameworks */,
 				0F5C827621A5581200E23A67 /* RxSwift.framework in Embed Frameworks */,
 			);
@@ -96,6 +104,11 @@
 		0F039A7C21B9123E00D0799E /* TestWeakUnownedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWeakUnownedController.swift; sourceTree = "<group>"; };
 		0F039A7F21B915E200D0799E /* TestSession1Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSession1Controller.swift; sourceTree = "<group>"; };
 		0F039A8121B915FB00D0799E /* TestSession2Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSession2Controller.swift; sourceTree = "<group>"; };
+		0F03A13921B91F4200D0799E /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
+		0F103BE321BA045E00084354 /* TestAlamo_1_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAlamo_1_Controller.swift; sourceTree = "<group>"; };
+		0F103BE521BA046900084354 /* TestAlamo_2_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAlamo_2_Controller.swift; sourceTree = "<group>"; };
+		0F103BE721BA047300084354 /* TestAlamo_3_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAlamo_3_Controller.swift; sourceTree = "<group>"; };
+		0F103BE921BA047F00084354 /* TestAlamo_4_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAlamo_4_Controller.swift; sourceTree = "<group>"; };
 		0F377A9421994FA500FF4F47 /* strx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = strx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F377A9721994FA500FF4F47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F377A9921994FA500FF4F47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -152,7 +165,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F03A13A21B91F4200D0799E /* ObjectMapper.framework in Frameworks */,
 				0F5C827D21A55B9F00E23A67 /* Differentiator.framework in Frameworks */,
+				0F03A13B21B91F4B00D0799E /* ObjectMapper.framework in Frameworks */,
 				0F5C827921A5597100E23A67 /* RxDataSources.framework in Frameworks */,
 				0F5C827E21A55BA700E23A67 /* Differentiator.framework in Frameworks */,
 				0F5C827121A5581100E23A67 /* RxCocoa.framework in Frameworks */,
@@ -191,6 +206,17 @@
 			path = Session;
 			sourceTree = "<group>";
 		};
+		0F103BE221BA043200084354 /* RxAlamofire */ = {
+			isa = PBXGroup;
+			children = (
+				0F103BE321BA045E00084354 /* TestAlamo_1_Controller.swift */,
+				0F103BE521BA046900084354 /* TestAlamo_2_Controller.swift */,
+				0F103BE721BA047300084354 /* TestAlamo_3_Controller.swift */,
+				0F103BE921BA047F00084354 /* TestAlamo_4_Controller.swift */,
+			);
+			path = RxAlamofire;
+			sourceTree = "<group>";
+		};
 		0F377A8B21994FA500FF4F47 = {
 			isa = PBXGroup;
 			children = (
@@ -214,6 +240,7 @@
 				0F8009B021A50493009756E9 /* Common */,
 				0F377AB32199569100FF4F47 /* HomeController.swift */,
 				0F377AB821995D5600FF4F47 /* BaseController.swift */,
+				0F103BE221BA043200084354 /* RxAlamofire */,
 				0F039A7E21B915C200D0799E /* Session */,
 				0F039A7B21B9120F00D0799E /* Unowned_weak */,
 				0F039A7821B907E500D0799E /* PickerView */,
@@ -238,6 +265,7 @@
 		0F377AA92199557000FF4F47 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0F03A13921B91F4200D0799E /* ObjectMapper.framework */,
 				0F5C827C21A55B9F00E23A67 /* Differentiator.framework */,
 				0F5C827821A5597100E23A67 /* RxDataSources.framework */,
 				0F5C826C21A5580000E23A67 /* RxCocoa.framework */,
@@ -445,6 +473,7 @@
 				0F039A6F21B79BA700D0799E /* TestCollection2Controller.swift in Sources */,
 				0F5C828521A6474100E23A67 /* EditTableController.swift in Sources */,
 				0FD88FC0219E9D2C00861BDF /* SubjectsViewController.swift in Sources */,
+				0F103BEA21BA047F00084354 /* TestAlamo_4_Controller.swift in Sources */,
 				0FE5354621A3A483007AC15B /* TestUI_2_Controller.swift in Sources */,
 				0FE5354821A4F527007AC15B /* TestUI_3_Controller.swift in Sources */,
 				0FE5353721A2F788007AC15B /* ErrorHandlerController.swift in Sources */,
@@ -470,16 +499,19 @@
 				0F377ABC219968EF00FF4F47 /* ObservableController.swift in Sources */,
 				0F5C829D21A6881100E23A67 /* TestNormalCollectionController.swift in Sources */,
 				0F377AB921995D5600FF4F47 /* BaseController.swift in Sources */,
+				0F103BE621BA046900084354 /* TestAlamo_2_Controller.swift in Sources */,
 				0FD88FC2219EA99D00861BDF /* TransformingObservablesController.swift in Sources */,
 				0FD88FBB219D5AEF00861BDF /* Observer2Controller.swift in Sources */,
 				0F039A7321B8AA6700D0799E /* TestCollection4Controller.swift in Sources */,
 				0F5C828321A635AB00E23A67 /* FilterDataController.swift in Sources */,
 				0F5C829A21A6831900E23A67 /* ChangeStyleController.swift in Sources */,
+				0F103BE821BA047300084354 /* TestAlamo_3_Controller.swift in Sources */,
 				0F039A7121B7A72400D0799E /* TestCollection3Controller.swift in Sources */,
 				0F377AB42199569100FF4F47 /* HomeController.swift in Sources */,
 				0FD88FB7219D497D00861BDF /* ObservableActionController.swift in Sources */,
 				0FE5353521A2F76B007AC15B /* DebugRxController.swift in Sources */,
 				0F039A8021B915E200D0799E /* TestSession1Controller.swift in Sources */,
+				0F103BE421BA045E00084354 /* TestAlamo_1_Controller.swift in Sources */,
 				0F377AB7219958AB00FF4F47 /* WellComeRxController.swift in Sources */,
 				0FE5352E21A2A75D007AC15B /* MathOperatorsController.swift in Sources */,
 				0F8009B821A52C39009756E9 /* TestTableViewController.swift in Sources */,

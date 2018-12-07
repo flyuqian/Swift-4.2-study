@@ -161,6 +161,13 @@ extension HomeController {
                 JumpClassModel(clzType: TestSession1Controller.self, title: "请求数据", subTitle: ""),
                 JumpClassModel(clzType: TestSession2Controller.self, title: "结果处理, 模型转换", subTitle: ""),
                 ]),
+            
+            SectionModel(headerTitle: "RxAlamofire 的使用", footerTitle: "", jumpClzs: [
+                JumpClassModel(clzType: TestAlamo_1_Controller.self, title: "请求数据", subTitle: ""),
+                JumpClassModel(clzType: TestAlamo_2_Controller.self, title: "处理结果, 模型转换", subTitle: ""),
+                JumpClassModel(clzType: TestAlamo_3_Controller.self, title: "文件上传", subTitle: ""),
+                JumpClassModel(clzType: TestAlamo_4_Controller.self, title: "文件下载", subTitle: ""),
+                ]),
         ]
     }
 }

@@ -174,6 +174,11 @@ extension HomeController {
                 JumpClassModel(clzType: TestMoya_2_Controller.self, title: "结果处理, 模型转换", subTitle: ""),
                 ]),
 
+            SectionModel(headerTitle: "MBProgressHUD", footerTitle: "", jumpClzs: [
+                JumpClassModel(clzType: TestMBP_1_Controller.self, title: "安装配置, 基本用法", subTitle: ""),
+                JumpClassModel(clzType: TestMBP_2_Controller.self, title: "样式修改, 自定义视图", subTitle: ""),
+                JumpClassModel(clzType: TestMBP_3_Controller.self, title: "封装常用方法", subTitle: ""),
+                ]),
         ]
     }
 }

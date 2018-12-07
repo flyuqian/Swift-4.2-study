@@ -29,6 +29,19 @@
 		0F103BF921BA10D800084354 /* RxAlamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0F103BF621BA10CF00084354 /* RxAlamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0F103BFC21BA1F6C00084354 /* TestMoya_1_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F103BFB21BA1F6C00084354 /* TestMoya_1_Controller.swift */; };
 		0F103BFE21BA1F7600084354 /* TestMoya_2_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F103BFD21BA1F7600084354 /* TestMoya_2_Controller.swift */; };
+		0F103C0121BA48B900084354 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F103BFF21BA48B900084354 /* Moya.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		0F103C0221BA48B900084354 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F103C0021BA48B900084354 /* Result.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		0F103C0321BA48C300084354 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F103BFF21BA48B900084354 /* Moya.framework */; };
+		0F103C0421BA48C300084354 /* Moya.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0F103BFF21BA48B900084354 /* Moya.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0F103C0521BA48C300084354 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F103C0021BA48B900084354 /* Result.framework */; };
+		0F103C0621BA48C300084354 /* Result.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0F103C0021BA48B900084354 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0F103C0821BA4E6B00084354 /* RxMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F103C0721BA4E6B00084354 /* RxMoya.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		0F103C0921BA4E7200084354 /* RxMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F103C0721BA4E6B00084354 /* RxMoya.framework */; };
+		0F103C0A21BA4E7200084354 /* RxMoya.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0F103C0721BA4E6B00084354 /* RxMoya.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0F103C0D21BA543900084354 /* TestMBP_1_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F103C0C21BA543900084354 /* TestMBP_1_Controller.swift */; };
+		0F103C0F21BA544300084354 /* TestMBP_2_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F103C0E21BA544300084354 /* TestMBP_2_Controller.swift */; };
+		0F103C1121BA544F00084354 /* TestMBP_3_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F103C1021BA544F00084354 /* TestMBP_3_Controller.swift */; };
+		0F103C1621BA55A800084354 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F103C1521BA55A800084354 /* MBProgressHUD.m */; };
 		0F377A9821994FA500FF4F47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F377A9721994FA500FF4F47 /* AppDelegate.swift */; };
 		0F377A9A21994FA500FF4F47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F377A9921994FA500FF4F47 /* ViewController.swift */; };
 		0F377A9D21994FA500FF4F47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F377A9B21994FA500FF4F47 /* Main.storyboard */; };
@@ -93,8 +106,11 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				0F103C0A21BA4E7200084354 /* RxMoya.framework in Embed Frameworks */,
+				0F103C0421BA48C300084354 /* Moya.framework in Embed Frameworks */,
 				0F5C827B21A5597E00E23A67 /* RxDataSources.framework in Embed Frameworks */,
 				0F103BEE21BA097F00084354 /* Alamofire.framework in Embed Frameworks */,
+				0F103C0621BA48C300084354 /* Result.framework in Embed Frameworks */,
 				0F103BF921BA10D800084354 /* RxAlamofire.framework in Embed Frameworks */,
 				0F5C827221A5581100E23A67 /* RxCocoa.framework in Embed Frameworks */,
 				0F03A13C21B91F4B00D0799E /* ObjectMapper.framework in Embed Frameworks */,
@@ -123,6 +139,15 @@
 		0F103BF621BA10CF00084354 /* RxAlamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxAlamofire.framework; path = Carthage/Build/iOS/RxAlamofire.framework; sourceTree = "<group>"; };
 		0F103BFB21BA1F6C00084354 /* TestMoya_1_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMoya_1_Controller.swift; sourceTree = "<group>"; };
 		0F103BFD21BA1F7600084354 /* TestMoya_2_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMoya_2_Controller.swift; sourceTree = "<group>"; };
+		0F103BFF21BA48B900084354 /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/iOS/Moya.framework; sourceTree = "<group>"; };
+		0F103C0021BA48B900084354 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		0F103C0721BA4E6B00084354 /* RxMoya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxMoya.framework; path = Carthage/Build/iOS/RxMoya.framework; sourceTree = "<group>"; };
+		0F103C0C21BA543900084354 /* TestMBP_1_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMBP_1_Controller.swift; sourceTree = "<group>"; };
+		0F103C0E21BA544300084354 /* TestMBP_2_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMBP_2_Controller.swift; sourceTree = "<group>"; };
+		0F103C1021BA544F00084354 /* TestMBP_3_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMBP_3_Controller.swift; sourceTree = "<group>"; };
+		0F103C1321BA55A600084354 /* strx-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "strx-Bridging-Header.h"; sourceTree = "<group>"; };
+		0F103C1421BA55A700084354 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		0F103C1521BA55A800084354 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		0F377A9421994FA500FF4F47 /* strx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = strx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F377A9721994FA500FF4F47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F377A9921994FA500FF4F47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -179,7 +204,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F103C0921BA4E7200084354 /* RxMoya.framework in Frameworks */,
+				0F103C0821BA4E6B00084354 /* RxMoya.framework in Frameworks */,
+				0F103C0121BA48B900084354 /* Moya.framework in Frameworks */,
+				0F103C0221BA48B900084354 /* Result.framework in Frameworks */,
 				0F103BF721BA10CF00084354 /* RxAlamofire.framework in Frameworks */,
+				0F103C0521BA48C300084354 /* Result.framework in Frameworks */,
 				0F103BEC21BA097700084354 /* Alamofire.framework in Frameworks */,
 				0F03A13A21B91F4200D0799E /* ObjectMapper.framework in Frameworks */,
 				0F5C827D21A55B9F00E23A67 /* Differentiator.framework in Frameworks */,
@@ -189,6 +219,7 @@
 				0F5C827121A5581100E23A67 /* RxCocoa.framework in Frameworks */,
 				0F103BED21BA097F00084354 /* Alamofire.framework in Frameworks */,
 				0F103BF821BA10D800084354 /* RxAlamofire.framework in Frameworks */,
+				0F103C0321BA48C300084354 /* Moya.framework in Frameworks */,
 				0F5C826E21A5580000E23A67 /* RxSwift.framework in Frameworks */,
 				0F5C827A21A5597E00E23A67 /* RxDataSources.framework in Frameworks */,
 				0F5C827521A5581200E23A67 /* RxSwift.framework in Frameworks */,
@@ -244,6 +275,25 @@
 			path = Moya;
 			sourceTree = "<group>";
 		};
+		0F103C0B21BA540B00084354 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				0F103C0C21BA543900084354 /* TestMBP_1_Controller.swift */,
+				0F103C0E21BA544300084354 /* TestMBP_2_Controller.swift */,
+				0F103C1021BA544F00084354 /* TestMBP_3_Controller.swift */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		0F103C1221BA557300084354 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				0F103C1421BA55A700084354 /* MBProgressHUD.h */,
+				0F103C1521BA55A800084354 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
 		0F377A8B21994FA500FF4F47 = {
 			isa = PBXGroup;
 			children = (
@@ -267,6 +317,7 @@
 				0F8009B021A50493009756E9 /* Common */,
 				0F377AB32199569100FF4F47 /* HomeController.swift */,
 				0F377AB821995D5600FF4F47 /* BaseController.swift */,
+				0F103C0B21BA540B00084354 /* MBProgressHUD */,
 				0F103BFA21BA1F4400084354 /* Moya */,
 				0F103BE221BA043200084354 /* RxAlamofire */,
 				0F039A7E21B915C200D0799E /* Session */,
@@ -293,6 +344,9 @@
 		0F377AA92199557000FF4F47 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0F103C0721BA4E6B00084354 /* RxMoya.framework */,
+				0F103BFF21BA48B900084354 /* Moya.framework */,
+				0F103C0021BA48B900084354 /* Result.framework */,
 				0F103BF621BA10CF00084354 /* RxAlamofire.framework */,
 				0F103BEB21BA097700084354 /* Alamofire.framework */,
 				0F03A13921B91F4200D0799E /* ObjectMapper.framework */,
@@ -355,6 +409,8 @@
 		0F8009B021A50493009756E9 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				0F103C1321BA55A600084354 /* strx-Bridging-Header.h */,
+				0F103C1221BA557300084354 /* MBProgressHUD */,
 				0F8009B121A5049D009756E9 /* RxExample中的文件 */,
 			);
 			path = Common;
@@ -455,6 +511,7 @@
 				TargetAttributes = {
 					0F377A9321994FA500FF4F47 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -499,6 +556,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F039A8221B915FB00D0799E /* TestSession2Controller.swift in Sources */,
+				0F103C1121BA544F00084354 /* TestMBP_3_Controller.swift in Sources */,
+				0F103C0D21BA543900084354 /* TestMBP_1_Controller.swift in Sources */,
 				0F103BFE21BA1F7600084354 /* TestMoya_2_Controller.swift in Sources */,
 				0F377A9A21994FA500FF4F47 /* ViewController.swift in Sources */,
 				0F039A6F21B79BA700D0799E /* TestCollection2Controller.swift in Sources */,
@@ -520,8 +579,10 @@
 				0FE5353021A2AAC5007AC15B /* ConnectOperatorController.swift in Sources */,
 				0FE5353A21A38D49007AC15B /* TraitsSequence1Controller.swift in Sources */,
 				0FE5352A21A29077007AC15B /* ConditionOperatorsController.swift in Sources */,
+				0F103C1621BA55A800084354 /* MBProgressHUD.m in Sources */,
 				0FE5354221A39E5F007AC15B /* SchedulersController.swift in Sources */,
 				0FE5352C21A296AD007AC15B /* ComBineOpratorController.swift in Sources */,
+				0F103C0F21BA544300084354 /* TestMBP_2_Controller.swift in Sources */,
 				0F5C828A21A6597500E23A67 /* MoreCellStyleController.swift in Sources */,
 				0FE5354421A3A0DE007AC15B /* TestUI_1_Controller.swift in Sources */,
 				0FE5352821A286C9007AC15B /* FilterObservableController.swift in Sources */,
@@ -692,6 +753,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6X7N7S9T83;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -705,6 +767,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = flyu.strx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "strx/Common/strx-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -714,6 +778,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6X7N7S9T83;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -727,6 +792,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = flyu.strx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "strx/Common/strx-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

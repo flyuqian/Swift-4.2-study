@@ -42,6 +42,8 @@
 		0F103C0F21BA544300084354 /* TestMBP_2_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F103C0E21BA544300084354 /* TestMBP_2_Controller.swift */; };
 		0F103C1121BA544F00084354 /* TestMBP_3_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F103C1021BA544F00084354 /* TestMBP_3_Controller.swift */; };
 		0F103C1621BA55A800084354 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F103C1521BA55A800084354 /* MBProgressHUD.m */; };
+		0F103C1921BA639400084354 /* TestSwiftNoticeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F103C1821BA639400084354 /* TestSwiftNoticeController.swift */; };
+		0F103C1C21BA646100084354 /* SwiftNotice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F103C1B21BA646100084354 /* SwiftNotice.swift */; };
 		0F377A9821994FA500FF4F47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F377A9721994FA500FF4F47 /* AppDelegate.swift */; };
 		0F377A9A21994FA500FF4F47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F377A9921994FA500FF4F47 /* ViewController.swift */; };
 		0F377A9D21994FA500FF4F47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F377A9B21994FA500FF4F47 /* Main.storyboard */; };
@@ -148,6 +150,8 @@
 		0F103C1321BA55A600084354 /* strx-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "strx-Bridging-Header.h"; sourceTree = "<group>"; };
 		0F103C1421BA55A700084354 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		0F103C1521BA55A800084354 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		0F103C1821BA639400084354 /* TestSwiftNoticeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSwiftNoticeController.swift; sourceTree = "<group>"; };
+		0F103C1B21BA646100084354 /* SwiftNotice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftNotice.swift; sourceTree = "<group>"; };
 		0F377A9421994FA500FF4F47 /* strx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = strx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F377A9721994FA500FF4F47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F377A9921994FA500FF4F47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -294,6 +298,22 @@
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
+		0F103C1721BA636E00084354 /* SwiftNotice */ = {
+			isa = PBXGroup;
+			children = (
+				0F103C1821BA639400084354 /* TestSwiftNoticeController.swift */,
+			);
+			path = SwiftNotice;
+			sourceTree = "<group>";
+		};
+		0F103C1A21BA645000084354 /* SwiftNotice */ = {
+			isa = PBXGroup;
+			children = (
+				0F103C1B21BA646100084354 /* SwiftNotice.swift */,
+			);
+			path = SwiftNotice;
+			sourceTree = "<group>";
+		};
 		0F377A8B21994FA500FF4F47 = {
 			isa = PBXGroup;
 			children = (
@@ -317,6 +337,7 @@
 				0F8009B021A50493009756E9 /* Common */,
 				0F377AB32199569100FF4F47 /* HomeController.swift */,
 				0F377AB821995D5600FF4F47 /* BaseController.swift */,
+				0F103C1721BA636E00084354 /* SwiftNotice */,
 				0F103C0B21BA540B00084354 /* MBProgressHUD */,
 				0F103BFA21BA1F4400084354 /* Moya */,
 				0F103BE221BA043200084354 /* RxAlamofire */,
@@ -409,9 +430,10 @@
 		0F8009B021A50493009756E9 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				0F103C1A21BA645000084354 /* SwiftNotice */,
 				0F103C1321BA55A600084354 /* strx-Bridging-Header.h */,
-				0F103C1221BA557300084354 /* MBProgressHUD */,
 				0F8009B121A5049D009756E9 /* RxExample中的文件 */,
+				0F103C1221BA557300084354 /* MBProgressHUD */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -582,6 +604,8 @@
 				0F103C1621BA55A800084354 /* MBProgressHUD.m in Sources */,
 				0FE5354221A39E5F007AC15B /* SchedulersController.swift in Sources */,
 				0FE5352C21A296AD007AC15B /* ComBineOpratorController.swift in Sources */,
+				0F103C1921BA639400084354 /* TestSwiftNoticeController.swift in Sources */,
+				0F103C1C21BA646100084354 /* SwiftNotice.swift in Sources */,
 				0F103C0F21BA544300084354 /* TestMBP_2_Controller.swift in Sources */,
 				0F5C828A21A6597500E23A67 /* MoreCellStyleController.swift in Sources */,
 				0FE5354421A3A0DE007AC15B /* TestUI_1_Controller.swift in Sources */,

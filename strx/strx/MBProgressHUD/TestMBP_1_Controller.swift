@@ -15,17 +15,28 @@ class TestMBP_1_Controller: BaseController {
         super.viewDidLoad()
 
 
+        
+    }
+    
+
+    @objc func hudTaped() {
+        print("HUD taped ... ")
+    }
+    
+
+    
+    func test2() {
         // test1()
         let hud = MBProgressHUD.showAdded(to: view, animated: true)
         // 立即 隐藏 HUD 窗口
         // hud.hide(animated: true)
-       
+        
         // 延时隐藏
         // hud.hide(animated: true, afterDelay: 1)
-      
+        
         // 最小 需要多少时间才隐藏
-//        hud.minShowTime = 2
-//        hud.hide(animated: true)
+        //        hud.minShowTime = 2
+        //        hud.hide(animated: true)
         
         
         // 消失动画
@@ -35,20 +46,13 @@ class TestMBP_1_Controller: BaseController {
          .zoomIn：逐渐放大并透明消失
          */
         
-//        hud.label.text = "请稍等"
-//        hud.removeFromSuperViewOnHide = true // 隐藏时从父视图移除
-
+        //        hud.label.text = "请稍等"
+        //        hud.removeFromSuperViewOnHide = true // 隐藏时从父视图移除
+        
         
         let tap = UITapGestureRecognizer(target: self, action: #selector(hudTaped))
         hud.addGestureRecognizer(tap)
     }
-    
-
-    @objc func hudTaped() {
-        print("HUD taped ... ")
-    }
-    
-
     
     func test1() {
         // 转圈

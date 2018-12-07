@@ -179,7 +179,14 @@ extension HomeController {
                 JumpClassModel(clzType: TestMBP_2_Controller.self, title: "样式修改, 自定义视图", subTitle: ""),
                 JumpClassModel(clzType: TestMBP_3_Controller.self, title: "封装常用方法", subTitle: ""),
                 ]),
+            
+            SectionModel(headerTitle: "SwiftNotice", footerTitle: "", jumpClzs: [
+                JumpClassModel(clzType: TestSwiftNoticeController.self, title: "SwiftNotice详解", subTitle: "纯 Swift HUD"),
+                ]),
+
         ]
     }
 }
+
+
 

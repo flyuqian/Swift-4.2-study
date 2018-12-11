@@ -183,6 +183,13 @@ extension HomeController {
             SectionModel(headerTitle: "SwiftNotice", footerTitle: "", jumpClzs: [
                 JumpClassModel(clzType: TestSwiftNoticeController.self, title: "SwiftNotice详解", subTitle: "纯 Swift HUD"),
                 ]),
+            
+            SectionModel(headerTitle: "MVVM", footerTitle: "", jumpClzs: [
+                JumpClassModel(clzType: TestMVVM_1_Controller.self, title: "MVVM 架构演示1", subTitle: "基本介绍 与 MVC比较"),
+                JumpClassModel(clzType: TestMVVM_2_Controller.self, title: "MVVM 架构演示2", subTitle: "使用Observable样例"),
+                JumpClassModel(clzType: TestMVVM_3_Controller.self, title: "MVVM 架构演示3", subTitle: "使用Driver样例"),
+                ]),
+            
 
         ]
     }

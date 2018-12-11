@@ -47,6 +47,8 @@
 		0F2C62CB21BF905200E2871C /* TestMVVM_1_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2C62CA21BF905200E2871C /* TestMVVM_1_Controller.swift */; };
 		0F2C62CD21BF906100E2871C /* TestMVVM_2_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2C62CC21BF906100E2871C /* TestMVVM_2_Controller.swift */; };
 		0F2C62CF21BF906F00E2871C /* TestMVVM_3_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2C62CE21BF906F00E2871C /* TestMVVM_3_Controller.swift */; };
+		0F2C62D221BFB43600E2871C /* TestUL_1_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2C62D121BFB43600E2871C /* TestUL_1_Controller.swift */; };
+		0F2C62D421BFB44800E2871C /* TestUL_2_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2C62D321BFB44800E2871C /* TestUL_2_Controller.swift */; };
 		0F377A9821994FA500FF4F47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F377A9721994FA500FF4F47 /* AppDelegate.swift */; };
 		0F377A9A21994FA500FF4F47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F377A9921994FA500FF4F47 /* ViewController.swift */; };
 		0F377A9D21994FA500FF4F47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F377A9B21994FA500FF4F47 /* Main.storyboard */; };
@@ -158,6 +160,8 @@
 		0F2C62CA21BF905200E2871C /* TestMVVM_1_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMVVM_1_Controller.swift; sourceTree = "<group>"; };
 		0F2C62CC21BF906100E2871C /* TestMVVM_2_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMVVM_2_Controller.swift; sourceTree = "<group>"; };
 		0F2C62CE21BF906F00E2871C /* TestMVVM_3_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMVVM_3_Controller.swift; sourceTree = "<group>"; };
+		0F2C62D121BFB43600E2871C /* TestUL_1_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUL_1_Controller.swift; sourceTree = "<group>"; };
+		0F2C62D321BFB44800E2871C /* TestUL_2_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUL_2_Controller.swift; sourceTree = "<group>"; };
 		0F377A9421994FA500FF4F47 /* strx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = strx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F377A9721994FA500FF4F47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F377A9921994FA500FF4F47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -330,6 +334,15 @@
 			path = MVVM;
 			sourceTree = "<group>";
 		};
+		0F2C62D021BFB40300E2871C /* 用户注册样例 */ = {
+			isa = PBXGroup;
+			children = (
+				0F2C62D121BFB43600E2871C /* TestUL_1_Controller.swift */,
+				0F2C62D321BFB44800E2871C /* TestUL_2_Controller.swift */,
+			);
+			path = "用户注册样例";
+			sourceTree = "<group>";
+		};
 		0F377A8B21994FA500FF4F47 = {
 			isa = PBXGroup;
 			children = (
@@ -353,6 +366,7 @@
 				0F8009B021A50493009756E9 /* Common */,
 				0F377AB32199569100FF4F47 /* HomeController.swift */,
 				0F377AB821995D5600FF4F47 /* BaseController.swift */,
+				0F2C62D021BFB40300E2871C /* 用户注册样例 */,
 				0F2C62C621BF901000E2871C /* MVVM */,
 				0F103C1721BA636E00084354 /* SwiftNotice */,
 				0F103C0B21BA540B00084354 /* MBProgressHUD */,
@@ -611,7 +625,9 @@
 				0F8009BA21A53419009756E9 /* RxDataSourceViewController.swift in Sources */,
 				0FD88FB9219D51AB00861BDF /* Observer1Controller.swift in Sources */,
 				0FE5353221A2ECA2007AC15B /* OtherOperatorController.swift in Sources */,
+				0F2C62D421BFB44800E2871C /* TestUL_2_Controller.swift in Sources */,
 				0F377A9821994FA500FF4F47 /* AppDelegate.swift in Sources */,
+				0F2C62D221BFB43600E2871C /* TestUL_1_Controller.swift in Sources */,
 				0F039A7D21B9123E00D0799E /* TestWeakUnownedController.swift in Sources */,
 				0F103BFC21BA1F6C00084354 /* TestMoya_1_Controller.swift in Sources */,
 				0FE5353E21A38D5F007AC15B /* TraitsSequence3Controller.swift in Sources */,

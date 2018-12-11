@@ -65,7 +65,7 @@ fileprivate enum RxObjectMapperError: Error {
 fileprivate extension Observable where Element:Any {
     
     //将JSON数据转成对象
-    public func mapObject<T>(type:T.Type) -> Observable<T> where T:Mappable {
+    fileprivate func mapObject<T>(type:T.Type) -> Observable<T> where T:Mappable {
         let mapper = Mapper<T>()
         
         return self.map { (element) -> T in
@@ -78,7 +78,7 @@ fileprivate extension Observable where Element:Any {
     }
     
     //将JSON数据转成数组
-    public func mapArray< T>(type:T.Type) -> Observable<[T]> where T:Mappable {
+    fileprivate func mapArray<T>(type:T.Type) -> Observable<[T]> where T:Mappable {
         let mapper = Mapper<T>()
         
         return self.map { (element) -> [T] in

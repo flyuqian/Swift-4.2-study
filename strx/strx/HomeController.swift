@@ -190,6 +190,11 @@ extension HomeController {
                 JumpClassModel(clzType: TestMVVM_3_Controller.self, title: "MVVM 架构演示3", subTitle: "使用Driver样例"),
                 ]),
             
+            SectionModel(headerTitle: "用户注册样例", footerTitle: "", jumpClzs: [
+                JumpClassModel(clzType: TestUL_1_Controller.self, title: "实现基本功能", subTitle: ""),
+                JumpClassModel(clzType: TestUL_2_Controller.self, title: "显示网络请求活动指示器", subTitle: ""),
+                ]),
+            
 
         ]
     }

@@ -47,8 +47,10 @@
 		0F2C62CB21BF905200E2871C /* TestMVVM_1_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2C62CA21BF905200E2871C /* TestMVVM_1_Controller.swift */; };
 		0F2C62CD21BF906100E2871C /* TestMVVM_2_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2C62CC21BF906100E2871C /* TestMVVM_2_Controller.swift */; };
 		0F2C62CF21BF906F00E2871C /* TestMVVM_3_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2C62CE21BF906F00E2871C /* TestMVVM_3_Controller.swift */; };
-		0F2C62D221BFB43600E2871C /* TestUL_1_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2C62D121BFB43600E2871C /* TestUL_1_Controller.swift */; };
 		0F2C62D421BFB44800E2871C /* TestUL_2_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2C62D321BFB44800E2871C /* TestUL_2_Controller.swift */; };
+		0F2C62D921C09FF800E2871C /* TestUL_1_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2C62D721C09FF800E2871C /* TestUL_1_Controller.swift */; };
+		0F2C62DA21C09FF800E2871C /* TestUL_1_Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F2C62D821C09FF800E2871C /* TestUL_1_Controller.xib */; };
+		0F2C62DC21C0B77F00E2871C /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2C62DB21C0B77F00E2871C /* ActivityIndicator.swift */; };
 		0F377A9821994FA500FF4F47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F377A9721994FA500FF4F47 /* AppDelegate.swift */; };
 		0F377A9A21994FA500FF4F47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F377A9921994FA500FF4F47 /* ViewController.swift */; };
 		0F377A9D21994FA500FF4F47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F377A9B21994FA500FF4F47 /* Main.storyboard */; };
@@ -84,6 +86,8 @@
 		0F8009B521A5053F009756E9 /* BothwayBindingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8009B421A5053F009756E9 /* BothwayBindingController.swift */; };
 		0F8009B821A52C39009756E9 /* TestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8009B721A52C39009756E9 /* TestTableViewController.swift */; };
 		0F8009BA21A53419009756E9 /* RxDataSourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8009B921A53419009756E9 /* RxDataSourceViewController.swift */; };
+		0FA0AF4F21C0BDDC00BAA398 /* TestMJR_1_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA0AF4E21C0BDDC00BAA398 /* TestMJR_1_Controller.swift */; };
+		0FA0AF5121C0BDE900BAA398 /* TestMJR_2_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA0AF5021C0BDE900BAA398 /* TestMJR_2_Controller.swift */; };
 		0FD88FB7219D497D00861BDF /* ObservableActionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD88FB6219D497D00861BDF /* ObservableActionController.swift */; };
 		0FD88FB9219D51AB00861BDF /* Observer1Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD88FB8219D51AB00861BDF /* Observer1Controller.swift */; };
 		0FD88FBB219D5AEF00861BDF /* Observer2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD88FBA219D5AEF00861BDF /* Observer2Controller.swift */; };
@@ -160,8 +164,10 @@
 		0F2C62CA21BF905200E2871C /* TestMVVM_1_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMVVM_1_Controller.swift; sourceTree = "<group>"; };
 		0F2C62CC21BF906100E2871C /* TestMVVM_2_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMVVM_2_Controller.swift; sourceTree = "<group>"; };
 		0F2C62CE21BF906F00E2871C /* TestMVVM_3_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMVVM_3_Controller.swift; sourceTree = "<group>"; };
-		0F2C62D121BFB43600E2871C /* TestUL_1_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUL_1_Controller.swift; sourceTree = "<group>"; };
 		0F2C62D321BFB44800E2871C /* TestUL_2_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUL_2_Controller.swift; sourceTree = "<group>"; };
+		0F2C62D721C09FF800E2871C /* TestUL_1_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUL_1_Controller.swift; sourceTree = "<group>"; };
+		0F2C62D821C09FF800E2871C /* TestUL_1_Controller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestUL_1_Controller.xib; sourceTree = "<group>"; };
+		0F2C62DB21C0B77F00E2871C /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 		0F377A9421994FA500FF4F47 /* strx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = strx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F377A9721994FA500FF4F47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F377A9921994FA500FF4F47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -191,6 +197,8 @@
 		0F8009B421A5053F009756E9 /* BothwayBindingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BothwayBindingController.swift; sourceTree = "<group>"; };
 		0F8009B721A52C39009756E9 /* TestTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableViewController.swift; sourceTree = "<group>"; };
 		0F8009B921A53419009756E9 /* RxDataSourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxDataSourceViewController.swift; sourceTree = "<group>"; };
+		0FA0AF4E21C0BDDC00BAA398 /* TestMJR_1_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMJR_1_Controller.swift; sourceTree = "<group>"; };
+		0FA0AF5021C0BDE900BAA398 /* TestMJR_2_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMJR_2_Controller.swift; sourceTree = "<group>"; };
 		0FD88FB6219D497D00861BDF /* ObservableActionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableActionController.swift; sourceTree = "<group>"; };
 		0FD88FB8219D51AB00861BDF /* Observer1Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer1Controller.swift; sourceTree = "<group>"; };
 		0FD88FBA219D5AEF00861BDF /* Observer2Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer2Controller.swift; sourceTree = "<group>"; };
@@ -337,7 +345,8 @@
 		0F2C62D021BFB40300E2871C /* 用户注册样例 */ = {
 			isa = PBXGroup;
 			children = (
-				0F2C62D121BFB43600E2871C /* TestUL_1_Controller.swift */,
+				0F2C62D721C09FF800E2871C /* TestUL_1_Controller.swift */,
+				0F2C62D821C09FF800E2871C /* TestUL_1_Controller.xib */,
 				0F2C62D321BFB44800E2871C /* TestUL_2_Controller.swift */,
 			);
 			path = "用户注册样例";
@@ -366,6 +375,7 @@
 				0F8009B021A50493009756E9 /* Common */,
 				0F377AB32199569100FF4F47 /* HomeController.swift */,
 				0F377AB821995D5600FF4F47 /* BaseController.swift */,
+				0FA0AF4D21C0BD9F00BAA398 /* MJRefresh使用 */,
 				0F2C62D021BFB40300E2871C /* 用户注册样例 */,
 				0F2C62C621BF901000E2871C /* MVVM */,
 				0F103C1721BA636E00084354 /* SwiftNotice */,
@@ -473,6 +483,7 @@
 			isa = PBXGroup;
 			children = (
 				0F8009B221A504C4009756E9 /* Operators.swift */,
+				0F2C62DB21C0B77F00E2871C /* ActivityIndicator.swift */,
 			);
 			path = "RxExample中的文件";
 			sourceTree = "<group>";
@@ -491,6 +502,15 @@
 				0F5C829921A6831900E23A67 /* ChangeStyleController.swift */,
 			);
 			path = tableView;
+			sourceTree = "<group>";
+		};
+		0FA0AF4D21C0BD9F00BAA398 /* MJRefresh使用 */ = {
+			isa = PBXGroup;
+			children = (
+				0FA0AF4E21C0BDDC00BAA398 /* TestMJR_1_Controller.swift */,
+				0FA0AF5021C0BDE900BAA398 /* TestMJR_2_Controller.swift */,
+			);
+			path = "MJRefresh使用";
 			sourceTree = "<group>";
 		};
 		0FE5353321A2F745007AC15B /* 调试&错误处理 */ = {
@@ -595,6 +615,7 @@
 				0F377AA221994FA700FF4F47 /* LaunchScreen.storyboard in Resources */,
 				0F5C829721A679C500E23A67 /* react.png in Resources */,
 				0F377A9F21994FA700FF4F47 /* Assets.xcassets in Resources */,
+				0F2C62DA21C09FF800E2871C /* TestUL_1_Controller.xib in Resources */,
 				0F5C828D21A65C4600E23A67 /* TestTableView.storyboard in Resources */,
 				0F377A9D21994FA500FF4F47 /* Main.storyboard in Resources */,
 				0F5C829421A6790A00E23A67 /* php.png in Resources */,
@@ -609,11 +630,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F039A8221B915FB00D0799E /* TestSession2Controller.swift in Sources */,
+				0FA0AF4F21C0BDDC00BAA398 /* TestMJR_1_Controller.swift in Sources */,
 				0F2C62CF21BF906F00E2871C /* TestMVVM_3_Controller.swift in Sources */,
 				0F103C1121BA544F00084354 /* TestMBP_3_Controller.swift in Sources */,
 				0F103C0D21BA543900084354 /* TestMBP_1_Controller.swift in Sources */,
 				0F103BFE21BA1F7600084354 /* TestMoya_2_Controller.swift in Sources */,
 				0F377A9A21994FA500FF4F47 /* ViewController.swift in Sources */,
+				0F2C62DC21C0B77F00E2871C /* ActivityIndicator.swift in Sources */,
 				0F039A6F21B79BA700D0799E /* TestCollection2Controller.swift in Sources */,
 				0F5C828521A6474100E23A67 /* EditTableController.swift in Sources */,
 				0FD88FC0219E9D2C00861BDF /* SubjectsViewController.swift in Sources */,
@@ -627,12 +650,13 @@
 				0FE5353221A2ECA2007AC15B /* OtherOperatorController.swift in Sources */,
 				0F2C62D421BFB44800E2871C /* TestUL_2_Controller.swift in Sources */,
 				0F377A9821994FA500FF4F47 /* AppDelegate.swift in Sources */,
-				0F2C62D221BFB43600E2871C /* TestUL_1_Controller.swift in Sources */,
 				0F039A7D21B9123E00D0799E /* TestWeakUnownedController.swift in Sources */,
 				0F103BFC21BA1F6C00084354 /* TestMoya_1_Controller.swift in Sources */,
 				0FE5353E21A38D5F007AC15B /* TraitsSequence3Controller.swift in Sources */,
 				0F8009B521A5053F009756E9 /* BothwayBindingController.swift in Sources */,
 				0FE5353021A2AAC5007AC15B /* ConnectOperatorController.swift in Sources */,
+				0FA0AF5121C0BDE900BAA398 /* TestMJR_2_Controller.swift in Sources */,
+				0F2C62D921C09FF800E2871C /* TestUL_1_Controller.swift in Sources */,
 				0FE5353A21A38D49007AC15B /* TraitsSequence1Controller.swift in Sources */,
 				0F2C62CB21BF905200E2871C /* TestMVVM_1_Controller.swift in Sources */,
 				0FE5352A21A29077007AC15B /* ConditionOperatorsController.swift in Sources */,

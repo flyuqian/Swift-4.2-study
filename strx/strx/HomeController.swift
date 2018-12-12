@@ -79,6 +79,10 @@ class HomeController: UITableViewController {
             let vc = UIStoryboard(name: "TestTableView", bundle: nil).instantiateViewController(withIdentifier: "MoreCellStyleController")
             navigationController?.pushViewController(vc, animated: true)
         }
+        else if jc.clzType == TestUL_1_Controller.self {
+            let vc = TestUL_1_Controller.init(nibName: "TestUL_1_Controller", bundle: nil);
+            navigationController?.pushViewController(vc, animated: true)
+        }
         else {
             let vc = jc.clzType.init()
             navigationController?.pushViewController(vc, animated: true)
@@ -193,6 +197,11 @@ extension HomeController {
             SectionModel(headerTitle: "用户注册样例", footerTitle: "", jumpClzs: [
                 JumpClassModel(clzType: TestUL_1_Controller.self, title: "实现基本功能", subTitle: ""),
                 JumpClassModel(clzType: TestUL_2_Controller.self, title: "显示网络请求活动指示器", subTitle: ""),
+                ]),
+            
+            SectionModel(headerTitle: "MJRefresh", footerTitle: "", jumpClzs: [
+                JumpClassModel(clzType: TestMJR_1_Controller.self, title: "下拉刷新", subTitle: ""),
+                JumpClassModel(clzType: TestMJR_2_Controller.self, title: "下拉式刷新 + 上拉加载", subTitle: ""),
                 ]),
             
 

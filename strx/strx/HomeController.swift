@@ -205,6 +205,11 @@ extension HomeController {
                 ]),
             
 
+            SectionModel(headerTitle: "DelegateProxy", footerTitle: "", jumpClzs: [
+                JumpClassModel(clzType: TestDelegateProxy_1_Controller.self, title: "获取地理定位信息", subTitle: ""),
+                JumpClassModel(clzType: TestDelegateProxy_2_Controller.self, title: "图片选择功能", subTitle: ""),
+                JumpClassModel(clzType: TestDelegateProxy_3_Controller.self, title: "应用生命周期的状态", subTitle: ""),
+                ]),
         ]
     }
 }

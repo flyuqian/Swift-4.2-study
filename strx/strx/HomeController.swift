@@ -210,6 +210,16 @@ extension HomeController {
                 JumpClassModel(clzType: TestDelegateProxy_2_Controller.self, title: "图片选择功能", subTitle: ""),
                 JumpClassModel(clzType: TestDelegateProxy_3_Controller.self, title: "应用生命周期的状态", subTitle: ""),
                 ]),
+            
+            SectionModel(headerTitle: "PromiseKit", footerTitle: "", jumpClzs: [
+                JumpClassModel(clzType: TestPromise_1_Controller.self, title: "基本介绍", subTitle: ""),
+                JumpClassModel(clzType: TestPromise_2_Controller.self, title: "URLSession拓展", subTitle: ""),
+                JumpClassModel(clzType: TestPromise_3_Controller.self, title: "NotificationCenter拓展", subTitle: ""),
+                JumpClassModel(clzType: TestPromise_4_Controller.self, title: "KVO拓展", subTitle: ""),
+                JumpClassModel(clzType: TestPromise_5_Controller.self, title: "Process拓展", subTitle: ""),
+                JumpClassModel(clzType: TestPromise_6_Controller.self, title: "Alamofire拓展", subTitle: ""),
+                JumpClassModel(clzType: TestPromise_7_Controller.self, title: "动画的拓展", subTitle: ""),
+                ]),
         ]
     }
 }

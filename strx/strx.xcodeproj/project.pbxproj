@@ -60,6 +60,13 @@
 		0F377AB7219958AB00FF4F47 /* WellComeRxController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F377AB6219958AB00FF4F47 /* WellComeRxController.swift */; };
 		0F377AB921995D5600FF4F47 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F377AB821995D5600FF4F47 /* BaseController.swift */; };
 		0F377ABC219968EF00FF4F47 /* ObservableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F377ABB219968EF00FF4F47 /* ObservableController.swift */; };
+		0F53155C21C87AE50062C61E /* TestPromise_1_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F53155B21C87AE50062C61E /* TestPromise_1_Controller.swift */; };
+		0F53155E21C87B100062C61E /* TestPromise_2_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F53155D21C87B100062C61E /* TestPromise_2_Controller.swift */; };
+		0F53156021C87B1F0062C61E /* TestPromise_3_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F53155F21C87B1F0062C61E /* TestPromise_3_Controller.swift */; };
+		0F53156221C87B2F0062C61E /* TestPromise_4_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F53156121C87B2E0062C61E /* TestPromise_4_Controller.swift */; };
+		0F53156421C87B3F0062C61E /* TestPromise_5_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F53156321C87B3F0062C61E /* TestPromise_5_Controller.swift */; };
+		0F53156621C87B500062C61E /* TestPromise_6_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F53156521C87B500062C61E /* TestPromise_6_Controller.swift */; };
+		0F53156821C87B5E0062C61E /* TestPromise_7_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F53156721C87B5E0062C61E /* TestPromise_7_Controller.swift */; };
 		0F5C826E21A5580000E23A67 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F5C826B21A5580000E23A67 /* RxSwift.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		0F5C826F21A5580000E23A67 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F5C826C21A5580000E23A67 /* RxCocoa.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		0F5C827121A5581100E23A67 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F5C826C21A5580000E23A67 /* RxCocoa.framework */; };
@@ -111,6 +118,9 @@
 		0FA0AF9721C0E3EF00BAA398 /* TestDelegateProxy_1_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA0AF9621C0E3EF00BAA398 /* TestDelegateProxy_1_Controller.swift */; };
 		0FA0AF9921C0E40000BAA398 /* TestDelegateProxy_2_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA0AF9821C0E40000BAA398 /* TestDelegateProxy_2_Controller.swift */; };
 		0FA0AF9B21C0E41300BAA398 /* TestDelegateProxy_3_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA0AF9A21C0E41300BAA398 /* TestDelegateProxy_3_Controller.swift */; };
+		0FA0AF9E21C0E6C400BAA398 /* RxCLLocationManagerDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA0AF9D21C0E6C400BAA398 /* RxCLLocationManagerDelegateProxy.swift */; };
+		0FA0AFA021C0E6F400BAA398 /* CLLocationManager+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA0AF9F21C0E6F400BAA398 /* CLLocationManager+Rx.swift */; };
+		0FA0AFA221C0E71D00BAA398 /* GeolocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA0AFA121C0E71D00BAA398 /* GeolocationService.swift */; };
 		0FD88FB7219D497D00861BDF /* ObservableActionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD88FB6219D497D00861BDF /* ObservableActionController.swift */; };
 		0FD88FB9219D51AB00861BDF /* Observer1Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD88FB8219D51AB00861BDF /* Observer1Controller.swift */; };
 		0FD88FBB219D5AEF00861BDF /* Observer2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD88FBA219D5AEF00861BDF /* Observer2Controller.swift */; };
@@ -202,6 +212,13 @@
 		0F377AB6219958AB00FF4F47 /* WellComeRxController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellComeRxController.swift; sourceTree = "<group>"; };
 		0F377AB821995D5600FF4F47 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
 		0F377ABB219968EF00FF4F47 /* ObservableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableController.swift; sourceTree = "<group>"; };
+		0F53155B21C87AE50062C61E /* TestPromise_1_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPromise_1_Controller.swift; sourceTree = "<group>"; };
+		0F53155D21C87B100062C61E /* TestPromise_2_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPromise_2_Controller.swift; sourceTree = "<group>"; };
+		0F53155F21C87B1F0062C61E /* TestPromise_3_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPromise_3_Controller.swift; sourceTree = "<group>"; };
+		0F53156121C87B2E0062C61E /* TestPromise_4_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPromise_4_Controller.swift; sourceTree = "<group>"; };
+		0F53156321C87B3F0062C61E /* TestPromise_5_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPromise_5_Controller.swift; sourceTree = "<group>"; };
+		0F53156521C87B500062C61E /* TestPromise_6_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPromise_6_Controller.swift; sourceTree = "<group>"; };
+		0F53156721C87B5E0062C61E /* TestPromise_7_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPromise_7_Controller.swift; sourceTree = "<group>"; };
 		0F5C826B21A5580000E23A67 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		0F5C826C21A5580000E23A67 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		0F5C827821A5597100E23A67 /* RxDataSources.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxDataSources.framework; path = Carthage/Build/iOS/RxDataSources.framework; sourceTree = "<group>"; };
@@ -265,6 +282,9 @@
 		0FA0AF9621C0E3EF00BAA398 /* TestDelegateProxy_1_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDelegateProxy_1_Controller.swift; sourceTree = "<group>"; };
 		0FA0AF9821C0E40000BAA398 /* TestDelegateProxy_2_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDelegateProxy_2_Controller.swift; sourceTree = "<group>"; };
 		0FA0AF9A21C0E41300BAA398 /* TestDelegateProxy_3_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDelegateProxy_3_Controller.swift; sourceTree = "<group>"; };
+		0FA0AF9D21C0E6C400BAA398 /* RxCLLocationManagerDelegateProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCLLocationManagerDelegateProxy.swift; sourceTree = "<group>"; };
+		0FA0AF9F21C0E6F400BAA398 /* CLLocationManager+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocationManager+Rx.swift"; sourceTree = "<group>"; };
+		0FA0AFA121C0E71D00BAA398 /* GeolocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeolocationService.swift; sourceTree = "<group>"; };
 		0FD88FB6219D497D00861BDF /* ObservableActionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableActionController.swift; sourceTree = "<group>"; };
 		0FD88FB8219D51AB00861BDF /* Observer1Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer1Controller.swift; sourceTree = "<group>"; };
 		0FD88FBA219D5AEF00861BDF /* Observer2Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer2Controller.swift; sourceTree = "<group>"; };
@@ -441,6 +461,7 @@
 				0F8009B021A50493009756E9 /* Common */,
 				0F377AB32199569100FF4F47 /* HomeController.swift */,
 				0F377AB821995D5600FF4F47 /* BaseController.swift */,
+				0F53155A21C87AA90062C61E /* PromiseKit */,
 				0FA0AF9521C0E3CA00BAA398 /* DelegateProxy */,
 				0FA0AF4D21C0BD9F00BAA398 /* MJRefresh使用 */,
 				0F2C62D021BFB40300E2871C /* 用户注册样例 */,
@@ -512,6 +533,20 @@
 				0FE5353121A2ECA2007AC15B /* OtherOperatorController.swift */,
 			);
 			path = "Rx 元素";
+			sourceTree = "<group>";
+		};
+		0F53155A21C87AA90062C61E /* PromiseKit */ = {
+			isa = PBXGroup;
+			children = (
+				0F53155B21C87AE50062C61E /* TestPromise_1_Controller.swift */,
+				0F53155D21C87B100062C61E /* TestPromise_2_Controller.swift */,
+				0F53155F21C87B1F0062C61E /* TestPromise_3_Controller.swift */,
+				0F53156121C87B2E0062C61E /* TestPromise_4_Controller.swift */,
+				0F53156321C87B3F0062C61E /* TestPromise_5_Controller.swift */,
+				0F53156521C87B500062C61E /* TestPromise_6_Controller.swift */,
+				0F53156721C87B5E0062C61E /* TestPromise_7_Controller.swift */,
+			);
+			path = PromiseKit;
 			sourceTree = "<group>";
 		};
 		0F5C828E21A678FC00E23A67 /* source */ = {
@@ -679,11 +714,22 @@
 		0FA0AF9521C0E3CA00BAA398 /* DelegateProxy */ = {
 			isa = PBXGroup;
 			children = (
+				0FA0AF9C21C0E6AE00BAA398 /* group_1 */,
 				0FA0AF9621C0E3EF00BAA398 /* TestDelegateProxy_1_Controller.swift */,
 				0FA0AF9821C0E40000BAA398 /* TestDelegateProxy_2_Controller.swift */,
 				0FA0AF9A21C0E41300BAA398 /* TestDelegateProxy_3_Controller.swift */,
 			);
 			path = DelegateProxy;
+			sourceTree = "<group>";
+		};
+		0FA0AF9C21C0E6AE00BAA398 /* group_1 */ = {
+			isa = PBXGroup;
+			children = (
+				0FA0AF9D21C0E6C400BAA398 /* RxCLLocationManagerDelegateProxy.swift */,
+				0FA0AF9F21C0E6F400BAA398 /* CLLocationManager+Rx.swift */,
+				0FA0AFA121C0E71D00BAA398 /* GeolocationService.swift */,
+			);
+			path = group_1;
 			sourceTree = "<group>";
 		};
 		0FE5353321A2F745007AC15B /* 调试&错误处理 */ = {
@@ -805,7 +851,10 @@
 			files = (
 				0F039A8221B915FB00D0799E /* TestSession2Controller.swift in Sources */,
 				0FA0AF8E21C0BF4F00BAA398 /* MJRefreshStateHeader.m in Sources */,
+				0F53156621C87B500062C61E /* TestPromise_6_Controller.swift in Sources */,
 				0FA0AF4F21C0BDDC00BAA398 /* TestMJR_1_Controller.swift in Sources */,
+				0F53155C21C87AE50062C61E /* TestPromise_1_Controller.swift in Sources */,
+				0FA0AF9E21C0E6C400BAA398 /* RxCLLocationManagerDelegateProxy.swift in Sources */,
 				0F2C62CF21BF906F00E2871C /* TestMVVM_3_Controller.swift in Sources */,
 				0F103C1121BA544F00084354 /* TestMBP_3_Controller.swift in Sources */,
 				0FA0AF8B21C0BF4F00BAA398 /* MJRefreshAutoGifFooter.m in Sources */,
@@ -830,6 +879,7 @@
 				0F8009BA21A53419009756E9 /* RxDataSourceViewController.swift in Sources */,
 				0FD88FB9219D51AB00861BDF /* Observer1Controller.swift in Sources */,
 				0FE5353221A2ECA2007AC15B /* OtherOperatorController.swift in Sources */,
+				0F53156821C87B5E0062C61E /* TestPromise_7_Controller.swift in Sources */,
 				0F2C62D421BFB44800E2871C /* TestUL_2_Controller.swift in Sources */,
 				0F377A9821994FA500FF4F47 /* AppDelegate.swift in Sources */,
 				0F039A7D21B9123E00D0799E /* TestWeakUnownedController.swift in Sources */,
@@ -850,6 +900,7 @@
 				0FE5354221A39E5F007AC15B /* SchedulersController.swift in Sources */,
 				0FA0AF9121C0BF4F00BAA398 /* MJRefreshHeader.m in Sources */,
 				0FE5352C21A296AD007AC15B /* ComBineOpratorController.swift in Sources */,
+				0FA0AFA221C0E71D00BAA398 /* GeolocationService.swift in Sources */,
 				0F103C1921BA639400084354 /* TestSwiftNoticeController.swift in Sources */,
 				0F103C1C21BA646100084354 /* SwiftNotice.swift in Sources */,
 				0F103C0F21BA544300084354 /* TestMBP_2_Controller.swift in Sources */,
@@ -860,11 +911,14 @@
 				0FA0AF8A21C0BF4F00BAA398 /* MJRefreshAutoStateFooter.m in Sources */,
 				0FE5352821A286C9007AC15B /* FilterObservableController.swift in Sources */,
 				0F8009B321A504C4009756E9 /* Operators.swift in Sources */,
+				0F53156021C87B1F0062C61E /* TestPromise_3_Controller.swift in Sources */,
 				0F039A7A21B9080D00D0799E /* TestPickerController.swift in Sources */,
 				0F5C828121A561A500E23A67 /* ReloadDataController.swift in Sources */,
 				0F377ABC219968EF00FF4F47 /* ObservableController.swift in Sources */,
+				0F53156421C87B3F0062C61E /* TestPromise_5_Controller.swift in Sources */,
 				0FA0AF8C21C0BF4F00BAA398 /* MJRefreshAutoNormalFooter.m in Sources */,
 				0FA0AF8621C0BF4F00BAA398 /* UIView+MJExtension.m in Sources */,
+				0F53156221C87B2F0062C61E /* TestPromise_4_Controller.swift in Sources */,
 				0FA0AF8121C0BF4F00BAA398 /* UIScrollView+MJRefresh.m in Sources */,
 				0F5C829D21A6881100E23A67 /* TestNormalCollectionController.swift in Sources */,
 				0FA0AF8921C0BF4F00BAA398 /* MJRefreshBackNormalFooter.m in Sources */,
@@ -878,6 +932,7 @@
 				0F5C828321A635AB00E23A67 /* FilterDataController.swift in Sources */,
 				0F5C829A21A6831900E23A67 /* ChangeStyleController.swift in Sources */,
 				0F103BE821BA047300084354 /* TestAlamo_3_Controller.swift in Sources */,
+				0F53155E21C87B100062C61E /* TestPromise_2_Controller.swift in Sources */,
 				0F039A7121B7A72400D0799E /* TestCollection3Controller.swift in Sources */,
 				0F377AB42199569100FF4F47 /* HomeController.swift in Sources */,
 				0FD88FB7219D497D00861BDF /* ObservableActionController.swift in Sources */,
@@ -886,6 +941,7 @@
 				0F103BE421BA045E00084354 /* TestAlamo_1_Controller.swift in Sources */,
 				0F377AB7219958AB00FF4F47 /* WellComeRxController.swift in Sources */,
 				0FE5352E21A2A75D007AC15B /* MathOperatorsController.swift in Sources */,
+				0FA0AFA021C0E6F400BAA398 /* CLLocationManager+Rx.swift in Sources */,
 				0FA0AF9321C0BF4F00BAA398 /* MJRefreshAutoFooter.m in Sources */,
 				0F8009B821A52C39009756E9 /* TestTableViewController.swift in Sources */,
 			);

@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F0E634421E6DB9100EFB59E /* TFLensController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0E634321E6DB9100EFB59E /* TFLensController.swift */; };
 		0F53154821C7A31B0062C61E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F53154721C7A31B0062C61E /* AppDelegate.swift */; };
 		0F53154A21C7A31B0062C61E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F53154921C7A31B0062C61E /* ViewController.swift */; };
 		0F53154D21C7A31B0062C61E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F53154B21C7A31B0062C61E /* Main.storyboard */; };
 		0F53154F21C7A31D0062C61E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F53154E21C7A31D0062C61E /* Assets.xcassets */; };
 		0F53155221C7A31D0062C61E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F53155021C7A31D0062C61E /* LaunchScreen.storyboard */; };
+		0F53156F21C892BF0062C61E /* TFInfunc01Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F53156E21C892BF0062C61E /* TFInfunc01Controller.swift */; };
+		0F53157121C89C5F0062C61E /* TFInfunc02Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F53157021C89C5F0062C61E /* TFInfunc02Controller.swift */; };
+		0F53157321C8A73A0062C61E /* TFInfunc03Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F53157221C8A73A0062C61E /* TFInfunc03Controller.swift */; };
+		0F53157621C8BE5B0062C61E /* TFAboutTController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F53157521C8BE5B0062C61E /* TFAboutTController.swift */; };
+		0F53157921C8C7EF0062C61E /* TFOptionaltController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F53157821C8C7EF0062C61E /* TFOptionaltController.swift */; };
+		0F53157C21C8D0BC0062C61E /* TFQCController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F53157B21C8D0BC0062C61E /* TFQCController.swift */; };
+		0F53158921C9EEC50062C61E /* TFTSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F53158821C9EEC50062C61E /* TFTSearchController.swift */; };
+		0F53158B21CA1B4A0062C61E /* CompleDicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F53158A21CA1B4A0062C61E /* CompleDicController.swift */; };
+		0F53159A21CB1E750062C61E /* TFChartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F53159921CB1E750062C61E /* TFChartController.swift */; };
+		0F53159D21CB67410062C61E /* TFIteratorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F53159C21CB67410062C61E /* TFIteratorController.swift */; };
+		0F5315A021CB7CF40062C61E /* TFTest001Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F53159F21CB7CF40062C61E /* TFTest001Controller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F0E634321E6DB9100EFB59E /* TFLensController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFLensController.swift; sourceTree = "<group>"; };
 		0F53154421C7A31B0062C61E /* TF01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TF01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F53154721C7A31B0062C61E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F53154921C7A31B0062C61E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +35,17 @@
 		0F53154E21C7A31D0062C61E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F53155121C7A31D0062C61E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F53155321C7A31D0062C61E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F53156E21C892BF0062C61E /* TFInfunc01Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFInfunc01Controller.swift; sourceTree = "<group>"; };
+		0F53157021C89C5F0062C61E /* TFInfunc02Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFInfunc02Controller.swift; sourceTree = "<group>"; };
+		0F53157221C8A73A0062C61E /* TFInfunc03Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFInfunc03Controller.swift; sourceTree = "<group>"; };
+		0F53157521C8BE5B0062C61E /* TFAboutTController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFAboutTController.swift; sourceTree = "<group>"; };
+		0F53157821C8C7EF0062C61E /* TFOptionaltController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFOptionaltController.swift; sourceTree = "<group>"; };
+		0F53157B21C8D0BC0062C61E /* TFQCController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFQCController.swift; sourceTree = "<group>"; };
+		0F53158821C9EEC50062C61E /* TFTSearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFTSearchController.swift; sourceTree = "<group>"; };
+		0F53158A21CA1B4A0062C61E /* CompleDicController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleDicController.swift; sourceTree = "<group>"; };
+		0F53159921CB1E750062C61E /* TFChartController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFChartController.swift; sourceTree = "<group>"; };
+		0F53159C21CB67410062C61E /* TFIteratorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFIteratorController.swift; sourceTree = "<group>"; };
+		0F53159F21CB7CF40062C61E /* TFTest001Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFTest001Controller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +59,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F0E634221E6DB6700EFB59E /* Lens(透镜) */ = {
+			isa = PBXGroup;
+			children = (
+				0F0E634321E6DB9100EFB59E /* TFLensController.swift */,
+			);
+			path = "Lens(透镜)";
+			sourceTree = "<group>";
+		};
 		0F53153B21C7A31B0062C61E = {
 			isa = PBXGroup;
 			children = (
@@ -68,8 +100,84 @@
 		0F53155921C7AA820062C61E /* class */ = {
 			isa = PBXGroup;
 			children = (
+				0F0E634221E6DB6700EFB59E /* Lens(透镜) */,
+				0F53159E21CB7CD20062C61E /* 解析器组合算子 */,
+				0F53159B21CB671F0062C61E /* 迭代器和序列 */,
+				0F53159821CB1E430062C61E /* 图标案例 */,
+				0F53158721C9EE8A0062C61E /* 纯函数式数据结构 */,
+				0F53157A21C8D09C0062C61E /* QuickCheck案例 */,
+				0F53157721C8C7D50062C61E /* 可选值 */,
+				0F53156D21C8927A0062C61E /* 第一章 函数式思想 */,
+				0F53157421C8BDA00062C61E /* map, filter, reduce */,
 			);
 			path = class;
+			sourceTree = "<group>";
+		};
+		0F53156D21C8927A0062C61E /* 第一章 函数式思想 */ = {
+			isa = PBXGroup;
+			children = (
+				0F53156E21C892BF0062C61E /* TFInfunc01Controller.swift */,
+				0F53157021C89C5F0062C61E /* TFInfunc02Controller.swift */,
+				0F53157221C8A73A0062C61E /* TFInfunc03Controller.swift */,
+			);
+			path = "第一章 函数式思想";
+			sourceTree = "<group>";
+		};
+		0F53157421C8BDA00062C61E /* map, filter, reduce */ = {
+			isa = PBXGroup;
+			children = (
+				0F53157521C8BE5B0062C61E /* TFAboutTController.swift */,
+			);
+			path = "map, filter, reduce";
+			sourceTree = "<group>";
+		};
+		0F53157721C8C7D50062C61E /* 可选值 */ = {
+			isa = PBXGroup;
+			children = (
+				0F53157821C8C7EF0062C61E /* TFOptionaltController.swift */,
+			);
+			path = "可选值";
+			sourceTree = "<group>";
+		};
+		0F53157A21C8D09C0062C61E /* QuickCheck案例 */ = {
+			isa = PBXGroup;
+			children = (
+				0F53157B21C8D0BC0062C61E /* TFQCController.swift */,
+			);
+			path = "QuickCheck案例";
+			sourceTree = "<group>";
+		};
+		0F53158721C9EE8A0062C61E /* 纯函数式数据结构 */ = {
+			isa = PBXGroup;
+			children = (
+				0F53158821C9EEC50062C61E /* TFTSearchController.swift */,
+				0F53158A21CA1B4A0062C61E /* CompleDicController.swift */,
+			);
+			path = "纯函数式数据结构";
+			sourceTree = "<group>";
+		};
+		0F53159821CB1E430062C61E /* 图标案例 */ = {
+			isa = PBXGroup;
+			children = (
+				0F53159921CB1E750062C61E /* TFChartController.swift */,
+			);
+			path = "图标案例";
+			sourceTree = "<group>";
+		};
+		0F53159B21CB671F0062C61E /* 迭代器和序列 */ = {
+			isa = PBXGroup;
+			children = (
+				0F53159C21CB67410062C61E /* TFIteratorController.swift */,
+			);
+			path = "迭代器和序列";
+			sourceTree = "<group>";
+		};
+		0F53159E21CB7CD20062C61E /* 解析器组合算子 */ = {
+			isa = PBXGroup;
+			children = (
+				0F53159F21CB7CF40062C61E /* TFTest001Controller.swift */,
+			);
+			path = "解析器组合算子";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +251,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F53157321C8A73A0062C61E /* TFInfunc03Controller.swift in Sources */,
+				0F53159D21CB67410062C61E /* TFIteratorController.swift in Sources */,
+				0F5315A021CB7CF40062C61E /* TFTest001Controller.swift in Sources */,
+				0F53157C21C8D0BC0062C61E /* TFQCController.swift in Sources */,
+				0F53157121C89C5F0062C61E /* TFInfunc02Controller.swift in Sources */,
+				0F0E634421E6DB9100EFB59E /* TFLensController.swift in Sources */,
+				0F53157621C8BE5B0062C61E /* TFAboutTController.swift in Sources */,
+				0F53158B21CA1B4A0062C61E /* CompleDicController.swift in Sources */,
+				0F53157921C8C7EF0062C61E /* TFOptionaltController.swift in Sources */,
+				0F53159A21CB1E750062C61E /* TFChartController.swift in Sources */,
+				0F53158921C9EEC50062C61E /* TFTSearchController.swift in Sources */,
+				0F53156F21C892BF0062C61E /* TFInfunc01Controller.swift in Sources */,
 				0F53154A21C7A31B0062C61E /* ViewController.swift in Sources */,
 				0F53154821C7A31B0062C61E /* AppDelegate.swift in Sources */,
 			);

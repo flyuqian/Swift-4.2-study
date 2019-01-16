@@ -15,9 +15,14 @@ class ObservableController: BaseController {
         super.viewDidLoad()
 
         test()
+        
     }
 
+    
+
 }
+
+
 
 
 // MARK: Observable<T>
@@ -83,7 +88,8 @@ extension ObservableController {
         let _ = Observable.generate(
             initialState: 0,
             condition: { $0 <= 10 },
-            iterate: { $0 + 2 })
+            iterate: { $0 + 2 }
+        )
         // 2, 4, 6, 8, 10
         
         // create()
@@ -124,14 +130,15 @@ extension ObservableController {
         Observable<Int>.interval(1, scheduler: MainScheduler.instance)
             .subscribe { event in
                 // print(event)
-        }.disposed(by: disposeBag)
+            }.disposed(by: disposeBag)
         
         // timer
         // 只生成唯一元素
         Observable<Int>.timer(2, scheduler: MainScheduler.instance)
             .subscribe { event in
                 print(event)
-        }.disposed(by: disposeBag)
+            }.disposed(by: disposeBag)
+        
         // 每隔一段设定时间发出一个元素
         Observable<Int>.timer(4, period: 1, scheduler: MainScheduler.instance)
             .subscribe { event in

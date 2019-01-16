@@ -60,6 +60,7 @@ class TestUI_1_Controller: BaseController {
                 .map(formatTimeInterval)
                 .bind(to: label.rx.attributedText)
                 .disposed(by: disposeBag)
+            
         }
         
         

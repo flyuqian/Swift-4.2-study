@@ -28,6 +28,13 @@ private class Douban: Mappable {
     func mapping(map: Map) {
         channels <- map["channels"]
     }
+    
+    
+    
+    
+    
+    
+    
 }
 
 private class Channel: Mappable {
@@ -83,6 +90,7 @@ class TestSession2Controller: BaseController {
             }.disposed(by: disposeBag)
             
         }
+        
         
     }
     

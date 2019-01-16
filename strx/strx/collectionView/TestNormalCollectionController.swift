@@ -42,6 +42,9 @@ class TestNormalCollectionController: BaseController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        UICollectionView.elementKindSectionFooter
+//        collectionView.register(nil, forSupplementaryViewOfKind: UICollectionView.elementKindSectionFooter, withReuseIdentifier: "")
+        
         let layout = UICollectionViewFlowLayout()
         layout.itemSize = CGSize(width: 100, height: 70)
         

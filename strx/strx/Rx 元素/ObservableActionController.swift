@@ -29,7 +29,7 @@ extension ObservableActionController {
             let observable = Observable.of("A", "B", "C")
             observable.subscribe { event in
                 print("event: \(event)");
-                print("element: \(event.element)")
+                print("element: \(String(describing: event.element))")
                 }.disposed(by: disposeBag)
         }
         

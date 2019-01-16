@@ -14,10 +14,10 @@ struct Music {
     let name: String //歌名
     let singer: String //演唱者
     
-    init(name: String, singer: String) {
-        self.name = name
-        self.singer = singer
-    }
+//    init(name: String, singer: String) {
+//        self.name = name
+//        self.singer = singer
+//    }
 }
 
 //实现 CustomStringConvertible 协议，方便输出调试

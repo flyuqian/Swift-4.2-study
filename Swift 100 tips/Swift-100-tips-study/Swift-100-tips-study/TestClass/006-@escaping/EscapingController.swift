@@ -43,7 +43,7 @@ fileprivate func doWorkAsync(block: @escaping() -> ()) {
     }
 }
 // 使用闭包调用这两个方法时, 会有一些行为不同
-// 闭包可以驳货区中的变量
+// 闭包可以截获其中的变量
 // dowork参数里没有逃逸的闭包, 因为闭包作用域不会超过函数本身, 所以不需要担心比包内持有 self 等
 // 接受了 @escaping 的 doWorkAsync 不同, 由于需要保持闭包内的成员有效, 如果闭包中引用了self, Swift 强制我们明确写出 self
 

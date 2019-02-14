@@ -33,6 +33,8 @@ class CurryingController: BaseViewController {
 
 }
 
+
+//MARK: 1
 extension CurryingController {
     // 该函数将数字 +1
     fileprivate func addOne(num: Int) -> Int {

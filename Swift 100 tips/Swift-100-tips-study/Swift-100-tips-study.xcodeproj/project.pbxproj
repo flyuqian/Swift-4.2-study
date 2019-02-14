@@ -748,7 +748,7 @@
 				CAC6ABF1214A44A10070274D /* 012-方法嵌套 */,
 				CAC6ABEE214A3EC50070274D /* 011-下标 */,
 				CAC6ABEB214A35BE0070274D /* 010-字面量表达 */,
-				CAC6ABE8214A31230070274D /* 009-func 的翻书修饰符 */,
+				CAC6ABE8214A31230070274D /* 009-func 的参数修饰符 */,
 				CAC6ABE5214A2BC80070274D /* 008-操作符 */,
 				CAC6ABE2214A28270070274D /* 007-Optional_Chaining */,
 				CAC6ABDF214A0ED10070274D /* 006-@escaping */,
@@ -835,12 +835,12 @@
 			path = "008-操作符";
 			sourceTree = "<group>";
 		};
-		CAC6ABE8214A31230070274D /* 009-func 的翻书修饰符 */ = {
+		CAC6ABE8214A31230070274D /* 009-func 的参数修饰符 */ = {
 			isa = PBXGroup;
 			children = (
 				CAC6ABE9214A316B0070274D /* ModifierController.swift */,
 			);
-			path = "009-func 的翻书修饰符";
+			path = "009-func 的参数修饰符";
 			sourceTree = "<group>";
 		};
 		CAC6ABEB214A35BE0070274D /* 010-字面量表达 */ = {

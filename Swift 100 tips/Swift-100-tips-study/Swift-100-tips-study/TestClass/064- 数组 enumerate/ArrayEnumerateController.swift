@@ -18,6 +18,9 @@ class ArrayEnumerateController: BaseViewController {
 
         
         var result = 0
+        let xxx = [1, 2, 3, 4, 5].enumerated()
+        print(xxx);
+        
         for (idx, num) in [1, 2, 3, 4, 5].enumerated() {
             result += num
             if idx == 2 {

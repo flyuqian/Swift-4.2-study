@@ -11,7 +11,7 @@
 // 自定义 =~ 运算符
 //  在 Cocoa 中我们可以使用 NSRegularExpression 来做正则匹配，那么其实我们为它写一个包装也并不是什么太困难的事情。因为做的是字符串正则匹配，所以 =~ 左右两边都是字符串。我们可以先写一个接受正则表达式的字符串，以此生成 NSRegularExpression 对象。然后使用该对象来匹配输入字符串，并返回结果告诉调用者匹配是否成功。
 // 正则表达式 30分钟入门: http://deerchao.net/tutorials/regex/regex.htm
-// 8个常用正则表大会:  https://code.tutsplus.com/tutorials/8-regular-expressions-you-should-know--net-6149
+// 8个常用正则表大全:  https://code.tutsplus.com/tutorials/8-regular-expressions-you-should-know--net-6149
 
 import UIKit
 

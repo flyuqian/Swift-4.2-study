@@ -19,6 +19,12 @@ class DefaultParamController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        test()
+        
     }
 
+    
+    func test(avg: Int = 0, avg2: String = "nil") -> Void {
+        print("avg: \(avg), avg2: \(avg2)")
+    }
 }

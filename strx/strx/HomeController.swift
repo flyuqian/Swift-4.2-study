@@ -95,6 +95,10 @@ class HomeController: UITableViewController {
 extension HomeController {
     func initialCellModels() {
         cellModels = [
+            SectionModel(headerTitle: "STRX_2", footerTitle: "重新抄下demo", jumpClzs: [
+                JumpClassModel(clzType: ST2C.self, title: "重新学下几个demo", subTitle: ""),
+                ]),
+            
             SectionModel(headerTitle: "初识 RxSwfit", footerTitle: "", jumpClzs: [
                 JumpClassModel(clzType: WellComeRxController.self, title: "响应式编程与传统编程比较", subTitle: ""),
                 ]),

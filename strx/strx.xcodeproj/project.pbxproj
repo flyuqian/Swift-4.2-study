@@ -17,6 +17,7 @@
 		0F03A13A21B91F4200D0799E /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F03A13921B91F4200D0799E /* ObjectMapper.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		0F03A13B21B91F4B00D0799E /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F03A13921B91F4200D0799E /* ObjectMapper.framework */; };
 		0F03A13C21B91F4B00D0799E /* ObjectMapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0F03A13921B91F4200D0799E /* ObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0F0F453F2230C27D00C868B4 /* TPromiseC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0F453E2230C27D00C868B4 /* TPromiseC.swift */; };
 		0F103BE421BA045E00084354 /* TestAlamo_1_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F103BE321BA045E00084354 /* TestAlamo_1_Controller.swift */; };
 		0F103BE621BA046900084354 /* TestAlamo_2_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F103BE521BA046900084354 /* TestAlamo_2_Controller.swift */; };
 		0F103BE821BA047300084354 /* TestAlamo_3_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F103BE721BA047300084354 /* TestAlamo_3_Controller.swift */; };
@@ -96,6 +97,8 @@
 		0F8009B521A5053F009756E9 /* BothwayBindingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8009B421A5053F009756E9 /* BothwayBindingController.swift */; };
 		0F8009B821A52C39009756E9 /* TestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8009B721A52C39009756E9 /* TestTableViewController.swift */; };
 		0F8009BA21A53419009756E9 /* RxDataSourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8009B921A53419009756E9 /* RxDataSourceViewController.swift */; };
+		0F976224222CF8B400008779 /* TTBReloadC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F976223222CF8B400008779 /* TTBReloadC.swift */; };
+		0F976227222D08DD00008779 /* TTBEditC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F976226222D08DD00008779 /* TTBEditC.swift */; };
 		0FA0AF4F21C0BDDC00BAA398 /* TestMJR_1_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA0AF4E21C0BDDC00BAA398 /* TestMJR_1_Controller.swift */; };
 		0FA0AF5121C0BDE900BAA398 /* TestMJR_2_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA0AF5021C0BDE900BAA398 /* TestMJR_2_Controller.swift */; };
 		0FA0AF8121C0BF4F00BAA398 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA0AF5321C0BF4F00BAA398 /* UIScrollView+MJRefresh.m */; };
@@ -144,6 +147,9 @@
 		0FE5354421A3A0DE007AC15B /* TestUI_1_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE5354321A3A0DE007AC15B /* TestUI_1_Controller.swift */; };
 		0FE5354621A3A483007AC15B /* TestUI_2_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE5354521A3A483007AC15B /* TestUI_2_Controller.swift */; };
 		0FE5354821A4F527007AC15B /* TestUI_3_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE5354721A4F527007AC15B /* TestUI_3_Controller.swift */; };
+		0FF67D832229081F008A68BD /* TTable01C.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF67D822229081F008A68BD /* TTable01C.swift */; };
+		0FF67D852229083E008A68BD /* ST2C.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF67D842229083E008A68BD /* ST2C.swift */; };
+		0FF67D8722291F2F008A68BD /* TTable02C.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF67D8622291F2F008A68BD /* TTable02C.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -179,6 +185,7 @@
 		0F039A7F21B915E200D0799E /* TestSession1Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSession1Controller.swift; sourceTree = "<group>"; };
 		0F039A8121B915FB00D0799E /* TestSession2Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSession2Controller.swift; sourceTree = "<group>"; };
 		0F03A13921B91F4200D0799E /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
+		0F0F453E2230C27D00C868B4 /* TPromiseC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPromiseC.swift; sourceTree = "<group>"; };
 		0F103BE321BA045E00084354 /* TestAlamo_1_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAlamo_1_Controller.swift; sourceTree = "<group>"; };
 		0F103BE521BA046900084354 /* TestAlamo_2_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAlamo_2_Controller.swift; sourceTree = "<group>"; };
 		0F103BE721BA047300084354 /* TestAlamo_3_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAlamo_3_Controller.swift; sourceTree = "<group>"; };
@@ -242,6 +249,8 @@
 		0F8009B421A5053F009756E9 /* BothwayBindingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BothwayBindingController.swift; sourceTree = "<group>"; };
 		0F8009B721A52C39009756E9 /* TestTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableViewController.swift; sourceTree = "<group>"; };
 		0F8009B921A53419009756E9 /* RxDataSourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxDataSourceViewController.swift; sourceTree = "<group>"; };
+		0F976223222CF8B400008779 /* TTBReloadC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTBReloadC.swift; sourceTree = "<group>"; };
+		0F976226222D08DD00008779 /* TTBEditC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTBEditC.swift; sourceTree = "<group>"; };
 		0FA0AF4E21C0BDDC00BAA398 /* TestMJR_1_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMJR_1_Controller.swift; sourceTree = "<group>"; };
 		0FA0AF5021C0BDE900BAA398 /* TestMJR_2_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMJR_2_Controller.swift; sourceTree = "<group>"; };
 		0FA0AF5321C0BF4F00BAA398 /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
@@ -310,6 +319,9 @@
 		0FE5354321A3A0DE007AC15B /* TestUI_1_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUI_1_Controller.swift; sourceTree = "<group>"; };
 		0FE5354521A3A483007AC15B /* TestUI_2_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUI_2_Controller.swift; sourceTree = "<group>"; };
 		0FE5354721A4F527007AC15B /* TestUI_3_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUI_3_Controller.swift; sourceTree = "<group>"; };
+		0FF67D822229081F008A68BD /* TTable01C.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTable01C.swift; sourceTree = "<group>"; };
+		0FF67D842229083E008A68BD /* ST2C.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ST2C.swift; sourceTree = "<group>"; };
+		0FF67D8622291F2F008A68BD /* TTable02C.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTable02C.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -465,6 +477,7 @@
 		0F377A9621994FA500FF4F47 /* strx */ = {
 			isa = PBXGroup;
 			children = (
+				0FF67D81222907DD008A68BD /* st2 */,
 				0F8009B021A50493009756E9 /* Common */,
 				0F377AB32199569100FF4F47 /* HomeController.swift */,
 				0F377AB821995D5600FF4F47 /* BaseController.swift */,
@@ -613,6 +626,17 @@
 				0F5C829921A6831900E23A67 /* ChangeStyleController.swift */,
 			);
 			path = tableView;
+			sourceTree = "<group>";
+		};
+		0F976225222CF8C100008779 /* tableview */ = {
+			isa = PBXGroup;
+			children = (
+				0FF67D822229081F008A68BD /* TTable01C.swift */,
+				0FF67D8622291F2F008A68BD /* TTable02C.swift */,
+				0F976223222CF8B400008779 /* TTBReloadC.swift */,
+				0F976226222D08DD00008779 /* TTBEditC.swift */,
+			);
+			path = tableview;
 			sourceTree = "<group>";
 		};
 		0FA0AF4D21C0BD9F00BAA398 /* MJRefresh使用 */ = {
@@ -778,6 +802,16 @@
 			path = "UI控件拓展";
 			sourceTree = "<group>";
 		};
+		0FF67D81222907DD008A68BD /* st2 */ = {
+			isa = PBXGroup;
+			children = (
+				0FF67D842229083E008A68BD /* ST2C.swift */,
+				0F976225222CF8C100008779 /* tableview */,
+				0F0F453E2230C27D00C868B4 /* TPromiseC.swift */,
+			);
+			path = st2;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -899,11 +933,14 @@
 				0FA0AF8521C0BF4F00BAA398 /* NSBundle+MJRefresh.m in Sources */,
 				0F2C62D921C09FF800E2871C /* TestUL_1_Controller.swift in Sources */,
 				0FE5353A21A38D49007AC15B /* TraitsSequence1Controller.swift in Sources */,
+				0FF67D832229081F008A68BD /* TTable01C.swift in Sources */,
 				0F2C62CB21BF905200E2871C /* TestMVVM_1_Controller.swift in Sources */,
 				0FA0AF8421C0BF4F00BAA398 /* UIScrollView+MJExtension.m in Sources */,
 				0FA0AF9221C0BF4F00BAA398 /* MJRefreshBackFooter.m in Sources */,
 				0FA0AF9B21C0E41300BAA398 /* TestDelegateProxy_3_Controller.swift in Sources */,
 				0FE5352A21A29077007AC15B /* ConditionOperatorsController.swift in Sources */,
+				0F976227222D08DD00008779 /* TTBEditC.swift in Sources */,
+				0FF67D852229083E008A68BD /* ST2C.swift in Sources */,
 				0F103C1621BA55A800084354 /* MBProgressHUD.m in Sources */,
 				0FE5354221A39E5F007AC15B /* SchedulersController.swift in Sources */,
 				0FA0AF9121C0BF4F00BAA398 /* MJRefreshHeader.m in Sources */,
@@ -920,11 +957,13 @@
 				0FE5352821A286C9007AC15B /* FilterObservableController.swift in Sources */,
 				0F8009B321A504C4009756E9 /* Operators.swift in Sources */,
 				0F53156021C87B1F0062C61E /* TestPromise_3_Controller.swift in Sources */,
+				0FF67D8722291F2F008A68BD /* TTable02C.swift in Sources */,
 				0F039A7A21B9080D00D0799E /* TestPickerController.swift in Sources */,
 				0F5C828121A561A500E23A67 /* ReloadDataController.swift in Sources */,
 				0F377ABC219968EF00FF4F47 /* ObservableController.swift in Sources */,
 				0F53156421C87B3F0062C61E /* TestPromise_5_Controller.swift in Sources */,
 				0FA0AF8C21C0BF4F00BAA398 /* MJRefreshAutoNormalFooter.m in Sources */,
+				0F0F453F2230C27D00C868B4 /* TPromiseC.swift in Sources */,
 				0FA0AF8621C0BF4F00BAA398 /* UIView+MJExtension.m in Sources */,
 				0F53156221C87B2F0062C61E /* TestPromise_4_Controller.swift in Sources */,
 				0FA0AF8121C0BF4F00BAA398 /* UIScrollView+MJRefresh.m in Sources */,
@@ -949,6 +988,7 @@
 				0F103BE421BA045E00084354 /* TestAlamo_1_Controller.swift in Sources */,
 				0F377AB7219958AB00FF4F47 /* WellComeRxController.swift in Sources */,
 				0FE5352E21A2A75D007AC15B /* MathOperatorsController.swift in Sources */,
+				0F976224222CF8B400008779 /* TTBReloadC.swift in Sources */,
 				0FA0AFA021C0E6F400BAA398 /* CLLocationManager+Rx.swift in Sources */,
 				0FA0AF9321C0BF4F00BAA398 /* MJRefreshAutoFooter.m in Sources */,
 				0F8009B821A52C39009756E9 /* TestTableViewController.swift in Sources */,

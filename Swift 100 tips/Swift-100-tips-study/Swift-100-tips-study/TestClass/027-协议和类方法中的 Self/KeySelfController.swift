@@ -34,7 +34,7 @@ fileprivate class MyClass: Copyable {
     var num = 1
     func copy() -> Self {
 //        let result = MyClass()
-//        result.num - num
+//        result.num = num
 //        return result
 //        编译报错
 //        该方法要求返回一个抽象的, 表示当前类型的Self, 而我们返回了真实类型MyClass, 所以无法编译

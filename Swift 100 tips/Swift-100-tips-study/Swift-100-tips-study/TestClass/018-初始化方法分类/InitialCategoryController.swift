@@ -9,7 +9,7 @@
 //
 // Swift 强化了designated初始化方法的地位
 // Swift 中不加修饰的init方法都需要在方法中保证所有非Optional的实例变量被赋值初始化
-// 子类中也强制, 显式或隐式地调用super版本的designated出事哈
+// 子类中也强制, 显式或隐式地调用super版本的designated初始化方法
 // 无论何种路径, 被初始化对象总是可以完成完整的初始化
 //
 // convenience 关键字的初始化方法, 只作为补充或提供使用上的方便

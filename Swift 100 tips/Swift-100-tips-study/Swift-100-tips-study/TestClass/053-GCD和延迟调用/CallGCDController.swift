@@ -19,7 +19,7 @@ class CallGCDController: BaseViewController {
         
         // GCD 案例
         func test1() {
-            // 创建膜表队列
+            // 创建目标队列
             let workingQueue = DispatchQueue(label: "my_queue")
             
             // 派发到刚创建的队列中, GCD会负责进行线程调度

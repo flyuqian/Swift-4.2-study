@@ -1,0 +1,17 @@
+# platform :ios, '9.0'
+
+target 'strx' do
+  use_frameworks!
+
+    pod 'RxSwift'#, '~> 5'
+    pod 'RxCocoa'#, '~> 5'
+    pod 'RxDataSources'#, '~> 3.0'
+    pod 'ObjectMapper', '~> 3.4'
+    pod 'RxAlamofire'
+    pod 'Alamofire' #, '~> 5.0.0-beta.5'
+    #pod 'Moya' #, '~> 13.0'
+    pod 'Moya/RxSwift'# , '~> 1.2.1'
+    pod "PromiseKit"#, "~> 6.8"
+    pod 'ReactorKit'
+
+end

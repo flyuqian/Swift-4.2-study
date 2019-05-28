@@ -17,7 +17,7 @@
 
 import UIKit
 import RxSwift
-import RxMoya
+//import RxMoya
 import Moya
 import ObjectMapper
 import Result

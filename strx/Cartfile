@@ -1,7 +1,0 @@
-github "ReactiveX/RxSwift" ~> 4.0
-github "RxSwiftCommunity/RxDataSources" ~> 3.0
-github "tristanhimmelman/ObjectMapper" ~> 3.4
-github "Alamofire/Alamofire"
-github "RxSwiftCommunity/RxAlamofire" "master"
-github "Moya/Moya"
-github "mxcl/PromiseKit" ~> 6.0

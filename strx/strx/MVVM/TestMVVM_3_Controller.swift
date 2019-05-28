@@ -9,7 +9,6 @@
 import UIKit
 import RxSwift
 import RxCocoa
-import RxMoya
 import Moya
 import ObjectMapper
 import Result

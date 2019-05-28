@@ -1,0 +1,12 @@
+platform :ios, '12.0'
+target 'TestMoya' do
+  use_frameworks!
+
+    pod 'RxSwift'
+    pod 'RxCocoa'
+    pod 'Alamofire'
+    pod 'Moya'
+    pod 'Moya/RxSwift'
+    pod 'SwiftyJSON'
+
+end
